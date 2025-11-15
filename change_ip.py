@@ -53,7 +53,8 @@ async def main():
         "user_ip": user_ip,
         "user_token": token_ip,
     }
-
+    print("Меняем ip для i_vanya0956")
+    print(f"Новый ip: {user_ip}")
     # 3. Отправляем запрос в рабочую систему
     async with aiohttp.ClientSession() as session:
         async with session.get(
