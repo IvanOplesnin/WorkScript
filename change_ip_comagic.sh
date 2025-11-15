@@ -20,8 +20,10 @@ fi
 
 echo "[*] Запускаю change_ip.py..."
 
+set +e
 "${PYTHON_BIN}" "${SCRIPT_DIR}/change_ip.py"
 STATUS=$?
+set -e
 
 if [[ $STATUS -eq 0 ]]; then
   echo "[✓] IP успешно обновлен в рабочей системе"
