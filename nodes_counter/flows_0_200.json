@@ -1,0 +1,4751 @@
+[
+  {
+    "id": "002c3805-8556-4c65-8621-c2375929403b",
+    "app_id": 58866,
+    "name": "Pers/manager",
+    "description": "Не удалять",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "delete123",
+        "integration_id": "c31a2d50-b05f-46f3-9c7f-5b6a1a290c7c"
+      },
+      {
+        "name": "QA_Test_PP_1",
+        "integration_id": "e1a29d9f-89e0-4cc9-ad44-95863ba7c400"
+      },
+      {
+        "name": "QA_Test_PP_2",
+        "integration_id": "cd6015aa-b098-4766-ba65-428c7a26b014"
+      },
+      {
+        "name": "Релиз 09.10.25",
+        "integration_id": "69c51cb8-39bb-44d1-b270-2aac0f13506f"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "003e8289-c4d1-49a8-a5ba-8dba917f2a8d",
+    "app_id": 58866,
+    "name": "Megaplan _синхронизация сотрудников",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "b0d987d7-8a3e-4c2c-aebe-172b9c64d85c",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "346752ce-145e-40db-a47b-0ce4d048d03f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "5c3af6e7-ba6e-43a7-940d-7dc27d0c60a5"
+        },
+        "component_configuration": {
+          "id": "81ae1cf1-53ed-481d-b444-a8acdad40842"
+        },
+        "integration_installation": {
+          "id": "8ec75f5b-56d4-41c6-b9fc-0d0d12394583"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "77c91e57-e0ea-428a-bbd0-b71dcac30b8e",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0065d026-d25a-4d15-9433-819481730365",
+    "app_id": 58866,
+    "name": "Выпадающие списки",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "bc4c2f81-966b-466a-af1d-36818a5a1426",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "2bcda080-6a0a-4db8-9bf0-8c0378b26d84",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "b2e23e99-4751-45b5-b1d0-e47234cdf848"
+        },
+        "component_configuration": {
+          "id": "be31ff88-bc6e-4860-a33f-18aa65860b1a"
+        },
+        "integration_installation": {
+          "id": "54a2815f-3279-4a2a-8c80-e0352649ee8a"
+        }
+      },
+      "uc_flow": {
+        "extra_props": {
+          "graph": {
+            "nodes": {
+              "9c7b1f0e-92e9-4b3e-b3c9-03797b676303": {
+                "data": {
+                  "properties": {
+                    "values": {
+                      "json_field": [
+                        {
+                          "name": [
+                            {
+                              "multiOptions": {
+                                "options": [
+                                  {
+                                    "name": "1111111111111111111111111111111111111111111111111111",
+                                    "value": "custom_value|cb2a98a7-4e7b-4fa7-9106-e67c3e4d0704|1111111111111111111111111111111111111111111111111111"
+                                  },
+                                  {
+                                    "name": "22222222222222222222222222222222222222222222222222222222222222222222",
+                                    "value": "custom_value|d58bac96-5bcc-400c-aa9e-c13711913864|22222222222222222222222222222222222222222222222222222222222222222222"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "parent_id": "8b518eb4-5447-45f9-baca-ccac1874c960",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0180544b-86b1-4aa2-b315-9622589eee33",
+    "app_id": 58866,
+    "name": "Omnidesk",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "QA_Test_PP_1",
+        "integration_id": "e1a29d9f-89e0-4cc9-ad44-95863ba7c400"
+      },
+      {
+        "name": "йцу",
+        "integration_id": "58cba516-1cb7-4f07-8356-88ca55e20f40"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "023e6a02-7cc8-4b0c-a540-ecf94462fac0",
+    "app_id": 58866,
+    "name": "_InSales - передача сделок",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "1aa00cf4-b186-470c-b4c0-e6820f06fc88",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "aecb3703-445e-42c0-8b45-f19726056b2d",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "5c3a0666-f88e-4d84-b0a4-ab2f489754f6"
+        },
+        "component_configuration": {
+          "id": "2857d323-6d3f-4022-a112-498048728c4b"
+        },
+        "integration_installation": {
+          "id": "d3846cb6-00ae-44d3-82ce-98ef66b8939a"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "de231f86-aef9-452e-8c8f-ccb875a4a9ac",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "031a9f10-671a-4f9d-be27-744e18f58c4c",
+    "app_id": 58866,
+    "name": "YClients - Upload deals from YClients ",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "45806015-ed37-475c-b384-758ccb074038",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "2ed99d76-19bd-4a2f-8120-d2029bfc6417",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "310df8d1-d825-4c3e-b6bb-ba654e98d194"
+        },
+        "component_configuration": {
+          "id": "8d2d1d26-7edd-4a54-ae59-a7fcb7a81fd3"
+        },
+        "integration_installation": {
+          "id": "22b3664f-a7f0-4ae9-839f-f6b4108e6e0d"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "abd71cbe-b733-4ea0-b298-b42e47e305c4",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "035f6db2-045f-4e56-8f82-6aea27a5ea84",
+    "app_id": 58866,
+    "name": "Bitrix24 Search Engine (deprecated)",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Bitrix24 - OMNI",
+        "integration_id": "bitrix24"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "04d9004a-17d2-4feb-895d-0b4ec49d59ae",
+    "app_id": 58866,
+    "name": "amoCRM - Чаты OMNI",
+    "description": "Интеграция с чатами OMNI ",
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "de3f440a-aa3d-46c7-8b5c-9320ef2cb05a",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "amocrm_omni",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "3197a1db-04b9-42b6-b4e9-47a0fa783ba1"
+        },
+        "component_configuration": {
+          "id": "bfe4eea0-59f2-4426-bc52-0bc903f1c828"
+        },
+        "integration_installation": {
+          "id": "f158eeee-b0b4-48a1-8bc3-47558bba08df"
+        }
+      }
+    },
+    "parent_id": "89bffb0c-cc31-44ae-9d7c-864f9db230cc",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "05305be8-d5d2-4a37-97d5-f664ba59c746",
+    "app_id": 58866,
+    "name": "Яндекс турбо - Парсинг почтового сервиса_Передача заявок",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Calltouch",
+        "integration_id": "1def1302-89c8-458e-aa33-9e20412b351a"
+      },
+      {
+        "name": "Яндекс Турбо",
+        "integration_id": "2424e8ad-3575-4088-9fab-b83491e8b454"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "071fb4b0-8c8f-472f-9db4-75e9fd520997",
+    "app_id": 58866,
+    "name": "amo...",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "083a161c-92b9-42e7-8cc0-413fd882f100",
+    "app_id": 58866,
+    "name": "PM",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "083aaec1-6ce1-486b-a2cc-3646df71dd74",
+    "app_id": 58866,
+    "name": "Yclients - текстовые коммуникации",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "5235daa4-72ef-4c83-ac92-917daebad900",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "2ed99d76-19bd-4a2f-8120-d2029bfc6417",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "5badbe8c-aec5-4522-a6de-75edf37cd30a"
+        },
+        "component_configuration": {
+          "id": "5172f448-4ca7-4419-8832-6d26f3d5c2eb"
+        },
+        "integration_installation": {
+          "id": "8ca924fe-a7ad-4120-8be8-4707a02c0679"
+        }
+      }
+    },
+    "parent_id": "4c0b7f8d-5199-45b1-90d2-96d39097c372",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "08f1752b-a4da-4109-a15c-21d497530781",
+    "app_id": 58866,
+    "name": "Synergy CRM v2",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "1d7cd737-498b-4d7d-95b3-0d87e406f8a6",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "20f8bb93-6f5f-4b9b-b19b-ab8051d50813",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "e820bc51-e1b2-4ff7-8295-d2a463db4512"
+        },
+        "component_configuration": {
+          "id": "b84a6caf-38ae-4a4f-a267-29f589fab45c"
+        },
+        "integration_installation": {
+          "id": "6270bd95-3fef-49e5-96a3-dfb4aac15422"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "d4d8ca23-f9e2-49a9-a147-24e0e489e376",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "095ffa58-6686-4336-9e1a-ba8e3d4c4e1d",
+    "app_id": 58866,
+    "name": "Planfix-синхронизация",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "ba944348-041a-4456-a21f-9ef8073687b0",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "84ee8739-2496-4765-ab36-53bad807ca7e",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "3c292a66-ea36-4a3b-8b39-c0bd562f8369"
+        },
+        "component_configuration": {
+          "id": "f9bf9c22-cbb2-4b22-aebe-51e32935d695"
+        },
+        "integration_installation": {
+          "id": "c6f039b2-1af6-43b0-a005-e51b1923bc0c"
+        }
+      }
+    },
+    "parent_id": "5fe984ea-44f6-44b0-88cb-23a8f20bef8b",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0a5a7af7-4a36-4a6c-ad46-5cea92ad3e0a",
+    "app_id": 58866,
+    "name": "amoCRM - Чаты OMNI",
+    "description": "Интеграция с чатами OMNI ",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "0dc05d94-9ded-43e0-a9d5-786f15adf39c",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "9c0d79c6-c5d3-484e-a314-70234789d51a",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "8a36d671-361f-4595-b197-de2cb6fbf2da"
+        },
+        "component_configuration": {
+          "id": "81e1e8bc-ca3d-442b-8d81-8648467e0b4e"
+        },
+        "integration_installation": {
+          "id": "2d09d973-f3f0-4a6f-a898-482c04944cc6"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "89bffb0c-cc31-44ae-9d7c-864f9db230cc",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0b0c9bf9-78c8-4dbc-b5e3-4a690f42bffe",
+    "app_id": 58866,
+    "name": "Emailtracking",
+    "description": "Email: fordostup12@yandex.ru. Period: 1",
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "9ac52651-b649-451f-89f3-0e8e501094cd",
+          "app_id": 1103
+        },
+        "integration": {
+          "id": "email_tracking",
+          "app_id": 1103
+        },
+        "component_installation": {
+          "id": "9886dbb8-9370-4503-a846-8ee92ca72576"
+        },
+        "component_configuration": {
+          "id": "20c47950-57ff-4333-b05b-e80cee2379fd"
+        },
+        "integration_installation": {
+          "id": "2668882c-9ce5-422f-973d-79bed071de68"
+        }
+      }
+    },
+    "parent_id": "ef1cdd56-4733-456b-b2e0-069c2bae64fa",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0b55d8d2-2ee0-4620-853f-6c11d375ba59",
+    "app_id": 58866,
+    "name": "debug",
+    "description": "dev",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0b60e94a-90cd-48e5-88ae-6746e85dc485",
+    "app_id": 58866,
+    "name": "Тест 100 звонков в минуту",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "23e5818d-b12a-400b-aa9a-f01f86f501c6",
+          "app_id": 124928
+        },
+        "integration": {
+          "id": "cbeb642f-0537-4a79-957c-3126a1ec42cf",
+          "app_id": 124928
+        },
+        "component_installation": {
+          "id": "8a3aefff-3c8b-44f3-8aa2-5c54fe10cdf7"
+        },
+        "component_configuration": {
+          "id": "da5630d0-3c5a-4588-8ba9-cc7e10b5de23"
+        },
+        "integration_installation": {
+          "id": "8fc2e62c-0058-46bf-941b-32bb90027570"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "6a95a660-1df6-4b69-b5e4-50a1e651a176",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0b84a5ad-7ca1-40da-a9ee-cda93ef4fb4e",
+    "app_id": 58866,
+    "name": "Клиентские настройки (несколько обязательных полей в коллекции)",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "3dc96e41-0025-4ad6-bf38-d4b6ec7d590e",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "59af0d7d-7e8f-46a7-9b2b-35b9ccdf3150",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "5e406340-d466-4f61-8696-385d2b187a44"
+        },
+        "component_configuration": {
+          "id": "caacf2b8-4eaf-42be-b73e-f360accb0b42"
+        },
+        "integration_installation": {
+          "id": "e93b7923-66c3-4336-a415-0b4286367921"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "0a7c00c4-2812-4cb7-aaf6-2603696c50e7",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0bbbc232-14fe-4647-a8e3-65b9f4a20de5",
+    "app_id": 58866,
+    "name": "ширина полей_текст.ком",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "05c20b53-adba-4868-a093-fce54fce9b4a",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "829d4312-883b-4ada-a7e9-1c051fb0f3f6",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "363632e8-f5de-47cd-be18-7088ae6fea67"
+        },
+        "component_configuration": {
+          "id": "2185cc8c-f382-46c6-bd23-3ed552d88095"
+        },
+        "integration_installation": {
+          "id": "b859a04b-d9d5-4a0c-9f2a-07532f771157"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "fd52aa2d-80f4-4861-8fd3-1106b5efaab8",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0c754bcd-7043-4b14-9466-6c352d7c551d",
+    "app_id": 58866,
+    "name": "test_settings_field",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "66c2c7b5-8e94-4f2c-a6e5-43377802e00c",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "5f92a0fd-455e-492d-b883-8394efdd6966",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "f68c3f58-585f-47aa-b73c-b891c493f873"
+        },
+        "component_configuration": {
+          "id": "6650179f-773d-472c-a79a-9fd3bcef7a52"
+        },
+        "integration_installation": {
+          "id": "596bbbc3-d291-4025-badf-96be54a1946d"
+        }
+      }
+    },
+    "parent_id": "1384750e-a508-4402-9bce-432c58d92fdc",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0d4718cc-a7e6-4f35-b72d-184ea5ce032a",
+    "app_id": 58866,
+    "name": "АМО - Модуль для тегирования",
+    "description": "DEV_доделать и переделать под мастер",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "amo test",
+        "integration_id": "bc2b48a6-b94c-4507-af71-7ac9987dd6ba"
+      },
+      {
+        "name": "Амо тегирование",
+        "integration_id": "573de54d-1a20-49ad-8a56-751b9d0ba0d6"
+      },
+      {
+        "name": "АМО - тегирование",
+        "integration_id": "401d6268-87a4-4776-8a59-ac9f8e84186a"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0db04618-ec66-461e-b244-1df4d17e30cb",
+    "app_id": 58866,
+    "name": "Клиентские настройки (обязательные поля в коллекции и вне)",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "cfd716ee-b25b-4327-b389-00f023b02e5f",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "59af0d7d-7e8f-46a7-9b2b-35b9ccdf3150",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "861ebaf4-abae-445f-b063-9b0b7b40f318"
+        },
+        "component_configuration": {
+          "id": "3564f149-d631-48d6-99b9-fca7093310e0"
+        },
+        "integration_installation": {
+          "id": "e93b7923-66c3-4336-a415-0b4286367921"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "6031850b-06fa-4f2b-aea2-201ce548ca52",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0e13c19e-cf77-4617-a01a-d4c710b58150",
+    "app_id": 58866,
+    "name": "Bitrix24 backup processor",
+    "description": "[НЕ УДАЛЯТЬ/НЕ ВЫКЛЮЧАТЬ] Отправляет бекапы флоу через Telegram bot.",
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": [
+      {
+        "id": "9c4059e6-54aa-424a-873a-3d661df35c63",
+        "name": "bitrix24 OMNI",
+        "color": "color5",
+        "app_id": 58866,
+        "created_at": "2025-09-22T09:37:44.447766"
+      }
+    ],
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0e153b55-b75d-4a2a-9fbd-adb80337644e",
+    "app_id": 58866,
+    "name": "Мегаплан v2 - сделки",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "c626586e-c427-40f7-9d27-175ea8a5c56a",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "346752ce-145e-40db-a47b-0ce4d048d03f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "e3efb1d9-ed6c-43e8-a585-8e7e6fc8beb6"
+        },
+        "component_configuration": {
+          "id": "fa713419-dccf-4c34-98a9-0f50557c3177"
+        },
+        "integration_installation": {
+          "id": "8ec75f5b-56d4-41c6-b9fc-0d0d12394583"
+        }
+      }
+    },
+    "parent_id": "b8ad57ed-81b1-4f5d-90b5-bbdd0bec2b6c",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0ec639fe-8162-457f-ad45-0d376d643215",
+    "app_id": 58866,
+    "name": "АМО - Интеграция с амо мультивиджетом",
+    "description": "DEV _  надо переделать под авторизацию",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "80bf8871-194b-4dd4-ba45-38b102e59de8",
+          "app_id": 75159
+        },
+        "integration": {
+          "id": "72e2040c-9833-466b-93c1-a72e3dc7deeb",
+          "app_id": 75159
+        },
+        "component_installation": {
+          "id": "ccc1ffd4-d59b-4561-bd62-59b95eb10266"
+        },
+        "component_configuration": {
+          "id": "181510d3-8222-465d-9ced-86aa88150a89"
+        },
+        "integration_installation": {
+          "id": "472561a7-c884-4126-aa6d-9e15a6dd2e9c"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "291b739d-a351-4b5d-8b87-1bd0638dffa5",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0f61ec16-7e45-4156-8ae4-071c43f236c0",
+    "app_id": 58866,
+    "name": "0_integration_sync_payload",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "0_integration_sync Uiscom",
+        "integration_id": "84f7d8bc-f581-4255-9eff-1670a74f2d6d"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0fdb7e72-fa3f-4a6c-834a-789132e7aebe",
+    "app_id": 58866,
+    "name": "test_uc-flow",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "95c14d38-cdb4-4be5-985b-9e80ac7da6cb",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "0cfb7304-209c-43d5-90a0-26eedfb0708b",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "cd7773af-33b3-45b8-a289-61363b74f54d"
+        },
+        "component_configuration": {
+          "id": "8bd5c696-fcf8-459d-b4ee-2c4ec638b5e7"
+        },
+        "integration_installation": {
+          "id": "aaa72b02-cbbb-49c5-8446-b69d903258f7"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "4a428692-ebad-4443-b562-c9ef50bec73f",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "0ff12df9-473b-48c5-ac33-9d4ba949472f",
+    "app_id": 58866,
+    "name": "Delete",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "7b9e9e27-991c-4aed-92e6-76b4173745df",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "756ab7ca-d611-4333-b43b-8a3f38e27af1",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "f5b2ef17-a19a-4371-a3b5-99570dda43ea"
+        },
+        "component_configuration": {
+          "id": "70b7c5b5-22c0-44b4-af9a-295986c140a0"
+        },
+        "integration_installation": {
+          "id": "09370ce4-c9eb-4e06-80c5-91322e0cb529"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "a0d6a9ec-dfe9-4fdf-968e-b6a43a484a77",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "104fbe55-df61-48da-9077-04cd894756f5",
+    "app_id": 58866,
+    "name": "Pers/manager",
+    "description": "Не удалять",
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "8cea9ecf-4250-4cfa-9cb3-e277c6b15143",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "cd6015aa-b098-4766-ba65-428c7a26b014",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "01ed5025-4421-40ce-9d0f-6667e2692e50"
+        },
+        "component_configuration": {
+          "id": "14fcd99c-2aa5-4b20-a16f-9b4633ea6cd6"
+        },
+        "integration_installation": {
+          "id": "69d01c80-d414-4183-a620-558043183310"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "002c3805-8556-4c65-8621-c2375929403b",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "10f1e368-059b-4c09-9e62-1915c507e0e9",
+    "app_id": 58866,
+    "name": "Bitrix24 Главная",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "d056b6b4-0356-46bc-a12a-34213985f92f",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "eb02f542-e447-4bf9-8288-ad8bd7e4c841",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "8dab1f6a-8133-4239-87ba-b3f9b1c8782a"
+        },
+        "component_configuration": {
+          "id": "4e2de61f-152f-4c3b-a5ea-e289d3b540fb"
+        },
+        "integration_installation": {
+          "id": "9f46e3e0-c52e-4f13-9c1c-3ebb48bc2032"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "52887c51-4e67-49be-996c-68edded15e44",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "11a19067-f740-4669-9461-9a9714633548",
+    "app_id": 58866,
+    "name": "МойСклад - телефония_старая",
+    "description": "на старых NS",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "МойСклад",
+        "integration_id": "763e6508-a189-449c-8432-373d9b0e348f"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "11bde8f2-7302-4d34-808f-8b476480c7d7",
+    "app_id": 58866,
+    "name": "Flow context for deepseek",
+    "description": "не удалять! (по вопросам в тг к @kesh193)",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "11f69d5e-26b7-4a5d-a25b-6701a861f134",
+    "app_id": 58866,
+    "name": "Verbox",
+    "description": "DEV",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Verbox",
+        "integration_id": "b5a88dc8-df2b-4b17-8113-5280d79d3f3c"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "1384750e-a508-4402-9bce-432c58d92fdc",
+    "app_id": 58866,
+    "name": "test_settings_field",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "test_settings_field",
+        "integration_id": "5f92a0fd-455e-492d-b883-8394efdd6966"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "138fec1d-3c11-403d-9f6d-b1911259332e",
+    "app_id": 58866,
+    "name": "Тест звонка",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "13f66b83-f094-41f4-9b13-04cd2ca09831",
+    "app_id": 58866,
+    "name": "Emailtracking",
+    "description": "dev",
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "9ac52651-b649-451f-89f3-0e8e501094cd",
+          "app_id": 1103
+        },
+        "integration": {
+          "id": "email_tracking",
+          "app_id": 1103
+        },
+        "component_installation": {
+          "id": "2d9762ba-057a-40ab-a72d-afb8a2f636a8"
+        },
+        "component_configuration": {
+          "id": "20c47950-57ff-4333-b05b-e80cee2379fd"
+        },
+        "integration_installation": {
+          "id": "eeed7d42-148c-461c-b264-62930cf2acfc"
+        }
+      }
+    },
+    "parent_id": "ef1cdd56-4733-456b-b2e0-069c2bae64fa",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "142f262c-afd3-4d10-b1a1-bacbaf7af4db",
+    "app_id": 58866,
+    "name": "RetailCRM - Сделки (Новая версия)",
+    "description": "DONE",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "RetailCRM 2.0",
+        "integration_id": "d39d40fe-ce2f-4aad-a4bd-f65772231052"
+      },
+      {
+        "name": "тест",
+        "integration_id": "bbb4e19c-488e-4e42-bb17-90c973b2cba6"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "144e7b44-87b7-4dbd-a19a-5e63ce160128",
+    "app_id": 58866,
+    "name": "Bitrix24 Чаты",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": [
+      {
+        "id": "9c4059e6-54aa-424a-873a-3d661df35c63",
+        "name": "bitrix24 OMNI",
+        "color": "color5",
+        "app_id": 58866,
+        "created_at": "2025-09-22T09:37:44.447766"
+      }
+    ],
+    "integrations": [
+      {
+        "name": "Bitrix24 - OMNI",
+        "integration_id": "bitrix24"
+      },
+      {
+        "name": "Bitrix24 Чаты и офлайн заявки (тест)",
+        "integration_id": "bitrix24-1"
+      },
+      {
+        "name": "Битрикс24 - Демо",
+        "integration_id": "eb02f542-e447-4bf9-8288-ad8bd7e4c841"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "1476bf6a-30e0-410b-a37a-8f8028d83349",
+    "app_id": 58866,
+    "name": "retail_test_joly",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "9b8a9902-ed47-4750-a6c2-b4d38fc64f6c",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "d1c4642f-87ac-4d59-a845-adead20a5032",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "9a04de4c-3db6-487f-8843-e198a12ce26d"
+        },
+        "component_configuration": {
+          "id": "073013cc-508f-4dbf-827d-8825a12697e6"
+        },
+        "integration_installation": {
+          "id": "ca284ff0-9714-4c02-a503-5930b805ccf9"
+        }
+      }
+    },
+    "parent_id": "1858e76a-b7a2-42cf-8aa5-d46edcb32bee",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "14d12640-b74f-491b-8167-f11407fc6a2b",
+    "app_id": 58866,
+    "name": "test_custom_method_call",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "test_custom_method_call",
+        "integration_id": "9cecc60c-bed0-4b60-aedf-e6deaedd70db"
+      },
+      {
+        "name": "test_custom_method_call",
+        "integration_id": "ca2c3409-bca0-4d88-8e6b-6f4e899dd1da"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "150b6d5f-1e48-4e1e-8bef-b1404255098f",
+    "app_id": 58866,
+    "name": "Megaplan_телефония",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "f31282ef-0c86-47f4-b9ec-b5b0c2c43695",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "346752ce-145e-40db-a47b-0ce4d048d03f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "4478264e-58b6-4548-95af-0a6bed1a9a95"
+        },
+        "component_configuration": {
+          "id": "e5ab7eb1-ac43-4995-a324-8849105257e9"
+        },
+        "integration_installation": {
+          "id": "551bd850-37a9-43ca-9ee8-7daa8f717efd"
+        }
+      }
+    },
+    "parent_id": "731b8c1d-bde4-43f3-a7e5-93221d975d1d",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "152a6889-e4b2-4491-999f-e6bb4811aa67",
+    "app_id": 58866,
+    "name": "Megaplan - текстовые коммуникации",
+    "description": "DEV",
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "752a9bbc-89ae-468c-840f-d8aacf57bf01",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "346752ce-145e-40db-a47b-0ce4d048d03f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "528fdf17-6330-43c4-9781-f3d48deb0baf"
+        },
+        "component_configuration": {
+          "id": "2c6b4d6e-0329-489c-957e-39dc561955bb"
+        },
+        "integration_installation": {
+          "id": "8ec75f5b-56d4-41c6-b9fc-0d0d12394583"
+        }
+      }
+    },
+    "parent_id": "4e6480e1-4e91-4cc4-b328-9371bf17544e",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "15a88ba7-210b-40cd-abe5-2ef34a9c6e9f",
+    "app_id": 58866,
+    "name": "Travelline",
+    "description": "DONE",
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "47658c75-7695-48b7-95a0-9bcf5569c3f2",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "4ea38590-ca5e-435f-9b1e-bb94709b963b",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "56338188-bd0d-4a59-8d8d-a5b3e4f01dc5"
+        },
+        "component_configuration": {
+          "id": "81643c6c-4729-44fd-ac6e-99de468f50f2"
+        },
+        "integration_installation": {
+          "id": "abf058d1-c1a9-44e9-a55e-cd95a429255d"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "f7f1ee2f-ceb1-4a41-9141-ec86e9b1320f",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "16469ea7-340d-4cb8-a84b-fa68f202598a",
+    "app_id": 58866,
+    "name": "АМО формы - Передача заявок",
+    "description": "DEV_переделать под источники",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "1662939e-5926-4643-87d8-afe1bc56b05b",
+    "app_id": 58866,
+    "name": "Klientiks - сделки и заявки с формы",
+    "description": "DEV",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "adb7f126-13ec-44f8-9c6a-41683701b347",
+          "app_id": 75159
+        },
+        "integration": {
+          "id": "a7714cdb-9dc8-405b-b82d-8feb4346ac94",
+          "app_id": 75159
+        },
+        "component_installation": {
+          "id": "97486c3a-a1a9-4b54-b79a-b545202be29c"
+        },
+        "component_configuration": {
+          "id": "62221532-0272-47f7-975a-c8f052f61852"
+        },
+        "integration_installation": {
+          "id": "3a07a27e-75af-4469-b1b4-4622ab5efc47"
+        }
+      }
+    },
+    "parent_id": "f76ea878-3801-4bfb-950b-9a541248b267",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "167bb1a9-593c-4a13-b5ec-7ab39df1d1c5",
+    "app_id": 58866,
+    "name": "VK чат-бот CXhub передача заявок",
+    "description": "Сделать описание и инструкцию",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "VK customer experience hub",
+        "integration_id": "7afdafba-6a1d-465b-8384-76da25f50d4e"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "169d03d9-4be6-4f9f-9a56-4ba8d78743d3",
+    "app_id": 58866,
+    "name": "Bitrix24 Сделки",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": [
+      {
+        "id": "9c4059e6-54aa-424a-873a-3d661df35c63",
+        "name": "bitrix24 OMNI",
+        "color": "color5",
+        "app_id": 58866,
+        "created_at": "2025-09-22T09:37:44.447766"
+      }
+    ],
+    "integrations": [
+      {
+        "name": "Битрикс24 - Демо",
+        "integration_id": "eb02f542-e447-4bf9-8288-ad8bd7e4c841"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "1702e36b-e4c9-4867-b0c4-443ea8ff3f64",
+    "app_id": 58866,
+    "name": "Доработка",
+    "description": "Доработки dataapi",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "170420e5-a1f6-4b9a-bfa8-d7bc1e48829a",
+    "app_id": 58866,
+    "name": "Hollihop - Телефония",
+    "description": "DEV_переделать под мастер",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "4b95fa1a-8d8b-4a2b-81d1-828ac0306315",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "aed34245-a205-4335-8768-80eadad87dde",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "dbf5da21-4c1a-46cf-870a-6e195f9c2711"
+        },
+        "component_configuration": {
+          "id": "3fda8e2d-336a-422d-8702-c9d9f8e0b50c"
+        },
+        "integration_installation": {
+          "id": "f0f97c83-1c4d-4c32-8e2c-4431b691bf67"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "c2c6ce32-b3fa-4b1f-8670-533862de4e6d",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "172c44d8-88c4-40e9-8071-0ed275513367",
+    "app_id": 58866,
+    "name": "Мой Склад Сделки",
+    "description": "DEV",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "fd8c8b05-d0d6-4d2b-8383-3aa270fa2e2f",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "763e6508-a189-449c-8432-373d9b0e348f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "0ea01491-53aa-4f87-a2dd-51ff80ffc9fd"
+        },
+        "component_configuration": {
+          "id": "dfdc03a7-b11f-4e6d-b026-45870b74d503"
+        },
+        "integration_installation": {
+          "id": "94cbacd8-9950-46fc-9710-ac8f054ede1c"
+        }
+      }
+    },
+    "parent_id": "f4276e10-f477-4883-9978-2bcb79c47058",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "1738f807-dc84-4df7-aeb5-e979e12d4c6b",
+    "app_id": 58866,
+    "name": "Клиентские настройки (без обязательных полей)",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "0cb7b3cb-1f2f-4902-8aab-1c0116c2813b",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "59af0d7d-7e8f-46a7-9b2b-35b9ccdf3150",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "129ffbb3-dae2-455a-a05c-d58e7fc97277"
+        },
+        "component_configuration": {
+          "id": "95d3ecb8-0269-4666-a10c-430f64883913"
+        },
+        "integration_installation": {
+          "id": "e93b7923-66c3-4336-a415-0b4286367921"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "658877d8-2635-4dd6-9825-4cb24a5ddd77",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "17453626-a5fd-4177-b270-74d3ad766f1b",
+    "app_id": 58866,
+    "name": "автообновление_3",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "автообновление",
+        "integration_id": "c77ad0e4-165a-45c2-8f32-67139bddf274"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "17edc663-dd64-401d-9571-9cd662bd6511",
+    "app_id": 58866,
+    "name": "Автообновление_2",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "автообновление",
+        "integration_id": "c77ad0e4-165a-45c2-8f32-67139bddf274"
+      },
+      {
+        "name": "Автообновление",
+        "integration_id": "1f81b527-d570-488b-8190-6f92578d89d3"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "18159509-5cc3-4845-aec5-12fcd684c298",
+    "app_id": 58866,
+    "name": "Planfix-сделки",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Planfix",
+        "integration_id": "84ee8739-2496-4765-ab36-53bad807ca7e"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "1858e76a-b7a2-42cf-8aa5-d46edcb32bee",
+    "app_id": 58866,
+    "name": "retail_test_joly",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Тест очистки полей",
+        "integration_id": "d1c4642f-87ac-4d59-a845-adead20a5032"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "18a5be7a-b5cd-479f-8e97-ee0030025c32",
+    "app_id": 58866,
+    "name": "amoCRM - Заявки",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": [
+      {
+        "id": "d10cf687-dec0-4f35-b608-94a1decbffaa",
+        "name": "amoCRM OMNI",
+        "color": "color9",
+        "app_id": 58866,
+        "created_at": "2025-09-18T08:11:40.981852"
+      }
+    ],
+    "integrations": [
+      {
+        "name": "amoCRM - OMNI",
+        "integration_id": "amocrm_omni"
+      },
+      {
+        "name": "amoCRM - Демо",
+        "integration_id": "9c0d79c6-c5d3-484e-a314-70234789d51a"
+      },
+      {
+        "name": "test-amo message",
+        "integration_id": "2b4ae911-d3da-46dd-8744-23ade6b045b0"
+      },
+      {
+        "name": "тест амо заявок с тегами",
+        "integration_id": "ffc6732c-dfdf-4bf6-becf-f11c175a48b3"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "1950c799-aa3f-463b-9366-1a68fdd3b3eb",
+    "app_id": 58866,
+    "name": "Planfix-синхронизация",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "ba944348-041a-4456-a21f-9ef8073687b0",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "84ee8739-2496-4765-ab36-53bad807ca7e",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "d0d159ed-9151-4a17-9ac6-cfc04c341285"
+        },
+        "component_configuration": {
+          "id": "f9bf9c22-cbb2-4b22-aebe-51e32935d695"
+        },
+        "integration_installation": {
+          "id": "0a785e78-d905-4f89-8a10-dd26e8f359c8"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "5fe984ea-44f6-44b0-88cb-23a8f20bef8b",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "19ef5f17-d8aa-4444-a89f-296cdb381933",
+    "app_id": 58866,
+    "name": "Yclients - текстовые коммуникации",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "5235daa4-72ef-4c83-ac92-917daebad900",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "2ed99d76-19bd-4a2f-8120-d2029bfc6417",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "000fa63b-fb4e-406c-b1cf-32d91e3312d6"
+        },
+        "component_configuration": {
+          "id": "ae162955-6ec6-4d21-8d7d-007eeb42532a"
+        },
+        "integration_installation": {
+          "id": "1b8f408e-3701-41e9-b194-c6ba4b467402"
+        }
+      }
+    },
+    "parent_id": "4c0b7f8d-5199-45b1-90d2-96d39097c372",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "1ab614e2-ee76-4206-897c-04c0fb398008",
+    "app_id": 58866,
+    "name": "Zapier_v2",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "1c38c278-683f-4d4f-a3ae-c8e01d1b4a3b",
+    "app_id": 58866,
+    "name": "Yclients_телефония",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "YClients",
+        "integration_id": "2ed99d76-19bd-4a2f-8120-d2029bfc6417"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "1c720e9b-5b9e-40ed-b64b-3f486aed5e1a",
+    "app_id": 58866,
+    "name": "sync_uis_comagic_TEST",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "1c78761a-f9b4-4913-80f8-63437077b7b8",
+    "app_id": 58866,
+    "name": "test_Bitrix_Чаты ",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "8f17eb8d-b356-4455-b3ff-abe920cdec1f",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "30b890ef-520b-4e23-ba10-3a470b20937f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "fd26de59-8a47-41fc-9cdc-e9b6d6c809fb"
+        },
+        "component_configuration": {
+          "id": "0115dc49-4d7f-4efc-9338-c85579686d4a"
+        },
+        "integration_installation": {
+          "id": "b2f954d0-81e9-4f93-a6f4-2c29134bafa6"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "f6c5cfae-8563-406d-af92-78e2189f46ae",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "1d91bb61-1f86-4416-8c69-cb955706ab22",
+    "app_id": 58866,
+    "name": "U-on.travel передача сделок",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "a97a76c9-fd1a-4df6-a0c9-0876a83a6003",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "5e295747-6bd6-4f40-a770-3b21cfb7216d",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "c91596bf-ab0c-422b-afc0-d583e5f1e310"
+        },
+        "component_configuration": {
+          "id": "c01e4af7-6ac4-4830-ac19-5f607a11695f"
+        },
+        "integration_installation": {
+          "id": "92dcedb1-ca0e-41c2-8a37-2b75e472d9c9"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "ccda8ca9-f4c2-4a18-a1e9-e975cc58ad3d",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "1ddf7c38-c343-443c-a601-18d33836698e",
+    "app_id": 58866,
+    "name": "amoCRM Телефония",
+    "description": "Перенос нативной интеграции UIS",
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "dc9f9c7d-3360-423d-8a28-d7349217c32c",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "02556475-242e-48e1-8ddf-f53ef02d6dde",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "79c8497b-3c0c-44a8-a869-5ffa7e755926"
+        },
+        "component_configuration": {
+          "id": "3a0cd773-c790-4736-a5c6-c46d789e2266"
+        },
+        "integration_installation": {
+          "id": "c5904800-67f2-4577-a989-378974c4664a"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "7b40d548-8193-41f4-bc55-ee91531b60ff",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "1f41b5bc-313c-45a3-bc0b-d9483fefc052",
+    "app_id": 58866,
+    "name": "Вкладки",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "7aa7a3c7-387a-4ef8-b57d-5158427904f2",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "59af0d7d-7e8f-46a7-9b2b-35b9ccdf3150",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "d91cbb9a-84c1-4316-a13a-aaf83760d6eb"
+        },
+        "component_configuration": {
+          "id": "37950cde-8cec-4c52-9211-f13b136d8c23"
+        },
+        "integration_installation": {
+          "id": "e93b7923-66c3-4336-a415-0b4286367921"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "91838780-ab1a-4698-a33b-f2df3700ac2f",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "1fd1fa72-d636-4664-b685-4280a764957f",
+    "app_id": 58866,
+    "name": "test_settings_field",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "66c2c7b5-8e94-4f2c-a6e5-43377802e00c",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "5f92a0fd-455e-492d-b883-8394efdd6966",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "6799f06d-0888-46c2-bd3e-7b0653cede68"
+        },
+        "component_configuration": {
+          "id": "6650179f-773d-472c-a79a-9fd3bcef7a52"
+        },
+        "integration_installation": {
+          "id": "7d3b0e64-dc91-460c-ab4f-f58d54bd6f16"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "1384750e-a508-4402-9bce-432c58d92fdc",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2108228b-2241-44e0-b896-a57ae00077ad",
+    "app_id": 58866,
+    "name": "Medesk (телефония)",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Medesk",
+        "integration_id": "d4554140-774f-4657-b8cd-ef8259e82cea"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "212fdd01-e397-4f53-886a-7867f34dbc65",
+    "app_id": 58866,
+    "name": "Reliz 06.11.25",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "215fe9bf-2b61-4add-8303-9cf0ec1a51d2",
+    "app_id": 58866,
+    "name": "medsi-pml",
+    "description": "dev",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Медси-PML",
+        "integration_id": "2b85441e-1a7d-41ed-ac16-ff8fc54a6212"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "22949ae3-b5c9-4a5b-82fd-d791375a1e1e",
+    "app_id": 58866,
+    "name": "Релиз 17.09.25",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "07eb894d-5ef1-446c-954c-5609a30a2bba",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "c31b0830-a4f9-4e84-9bfd-1c9abf6d2ac4",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "05161b7f-d730-4595-b92a-28a2963e2d63"
+        },
+        "component_configuration": {
+          "id": "4ff246d0-534b-4b53-af9b-324ae68e660c"
+        },
+        "integration_installation": {
+          "id": "230ee356-9bb1-4799-a631-fe027e1a7421"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "504985d2-59db-40cc-b827-aaec92fefb0c",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "233fca93-4339-44c1-968c-a0b7311cc0c9",
+    "app_id": 58866,
+    "name": "Klientiks - телефония",
+    "description": "DEV",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "0d5b25d1-fe82-42ff-b757-dd61b24b17d3",
+          "app_id": 75159
+        },
+        "integration": {
+          "id": "a7714cdb-9dc8-405b-b82d-8feb4346ac94",
+          "app_id": 75159
+        },
+        "component_installation": {
+          "id": "7e286601-f68d-4251-af05-e5376d350b18"
+        },
+        "component_configuration": {
+          "id": "f022b36e-6bf1-4aef-9ea0-25e8154e8c77"
+        },
+        "integration_installation": {
+          "id": "3a07a27e-75af-4469-b1b4-4622ab5efc47"
+        }
+      }
+    },
+    "parent_id": "720165b7-81ce-4182-b487-2410ad6915ae",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "256544f8-d5c5-4130-bf01-97ab19800522",
+    "app_id": 58866,
+    "name": "megaplan_telefony_backup_dev",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2651f962-c7aa-46e8-bbb7-9ef831550338",
+    "app_id": 58866,
+    "name": "tree",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "265a1e8b-54b6-461b-97fe-18f723cf523b",
+    "app_id": 58866,
+    "name": "RetailCRM_телефония",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "9aff5e0e-21c3-4d67-8481-185e2a24cf4f",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "d39d40fe-ce2f-4aad-a4bd-f65772231052",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "650e4e54-e391-44f1-988c-5a7fc98b38d4"
+        },
+        "component_configuration": {
+          "id": "01631ba2-a6e2-462c-9a7b-8a20a168c5d7"
+        },
+        "integration_installation": {
+          "id": "366b1e4d-ea61-4236-85f8-2ecb73df0076"
+        }
+      }
+    },
+    "parent_id": "be5edfd2-a221-443f-8776-ba3f96076f91",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "284c36da-418f-490d-b513-1bd84de1462b",
+    "app_id": 58866,
+    "name": "Retail - триггерные коммуникации",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "19473256-0cba-4d4e-999f-55b17aefb405",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "e5eb8c17-152d-4ed9-bd85-72ab83e09a8e",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "677e49fd-5217-4730-83f6-aec4b800b420"
+        },
+        "component_configuration": {
+          "id": "6bb86b29-3b63-4a07-8942-6f9c5c67a5f3"
+        },
+        "integration_installation": {
+          "id": "9a01796b-648c-4d49-8317-28ae01f5ea50"
+        }
+      }
+    },
+    "parent_id": "c02e96df-a679-4f6d-8c73-5d7d2c53df64",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "28a78aab-6cf7-4dc2-abc1-517334e28cf0",
+    "app_id": 58866,
+    "name": "Retail-телефония_TEST",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "46126b1e-7e5c-4b20-99ba-b149cef7d454",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "f5435f61-2979-4c18-8df5-70456bd4a055",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "50515fc6-2dd5-47ed-8188-570b02194b18"
+        },
+        "component_configuration": {
+          "id": "d739566e-d58b-47f3-b5c5-86acbe92143e"
+        },
+        "integration_installation": {
+          "id": "635ddf0f-d588-4615-82c8-574013681ea5"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "655e200c-56a9-4e07-b517-d8ba9406034e",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "28e124b8-0e04-4c3a-8be2-98ac1e607df0",
+    "app_id": 58866,
+    "name": "Bitrix24 Открытые линии",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "56d2c903-82a4-4dd0-a871-9a580db9d724",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "bitrix24",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "8d09507e-d955-43b6-a0e5-56184eacf292"
+        },
+        "component_configuration": {
+          "id": "a7e0be9e-b977-4f22-bfa4-3ceac3656bac"
+        },
+        "integration_installation": {
+          "id": "890566a7-b543-44f7-aa0a-10285900b331"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "858e08b0-4d59-4371-8fbb-d2e8840a7ae7",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "291b739d-a351-4b5d-8b87-1bd0638dffa5",
+    "app_id": 58866,
+    "name": "АМО - Интеграция с амо мультивиджетом",
+    "description": "DEV _  надо переделать под авторизацию",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "amoCRM мультивиджет",
+        "integration_id": "72e2040c-9833-466b-93c1-a72e3dc7deeb"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "291efeab-0107-44dd-83b6-81a1a8b47c28",
+    "app_id": 58866,
+    "name": "amoCRM - Чаты OMNI",
+    "description": "Интеграция с чатами OMNI ",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "23334251-348e-483e-9794-ce7633b776c8",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "eabb6862-63dd-4e79-8bf2-a6d3ccd58c93",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "1d324216-af30-4ce6-b3c2-586490702a3c"
+        },
+        "component_configuration": {
+          "id": "c0fc84fc-a791-45dc-afe9-d1e13f826778"
+        },
+        "integration_installation": {
+          "id": "2c71cbaa-6c19-4e93-ab0e-8be171b36051"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "89bffb0c-cc31-44ae-9d7c-864f9db230cc",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2991311a-6a4e-4761-aec9-b400d092b3f2",
+    "app_id": 58866,
+    "name": "🔨 __для тестов",
+    "description": "не удалять",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "0a30fe35-f117-40fd-b416-b89c1bb1e52e",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "269ad360-c851-4e29-abd5-3829e225a992",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "f30a28cd-b308-462c-a8ac-554dd908b55a"
+        },
+        "component_configuration": {
+          "id": "14ee1549-2cbc-43dc-ab29-2d2c61ee9c5c"
+        },
+        "integration_installation": {
+          "id": "73b61557-6c9b-47d8-939b-c24bc3dda7d7"
+        }
+      }
+    },
+    "parent_id": "b33a7c44-42b0-41c8-abb8-c34599d23495",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2a446351-da0f-4094-9cd7-043d0ceb01e2",
+    "app_id": 58866,
+    "name": "AlfaCRM - сделки",
+    "description": "DEV",
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "cbffbd47-7950-48cf-89c2-c3c56b4a1807",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "7ad6a479-f35c-4cc7-8798-0dfc0520fb84",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "01a40345-c0cd-4be7-8381-632d2edac3bd"
+        },
+        "component_configuration": {
+          "id": "dc635a0b-c4ca-4f4d-a68d-43bdc6d67567"
+        },
+        "integration_installation": {
+          "id": "9ab1a93e-69a4-4dfa-9e9c-8ba27a11632f"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "d27488fa-adfd-49ab-99f4-f0d730ff8962",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2b0f1437-a5e6-43fa-9329-5db31c72e5f9",
+    "app_id": 58866,
+    "name": "_Аларм-Моторс - Парсинг почтового сервиса_ передача заявок к нам",
+    "description": "DEV_реализовать",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2b9cb23c-2768-4488-af92-268af2d924f4",
+    "app_id": 58866,
+    "name": "shmelev funnel test",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2d3b7ba1-d1dc-43a5-8aa4-ac8b4bb122f1",
+    "app_id": 58866,
+    "name": "CoMagic Dismissal Bot",
+    "description": "Администрирование рабочих групп в Телеграм (исключение сотрудников)",
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2dae8a62-aa43-4b77-b438-074ba59d1a9f",
+    "app_id": 58866,
+    "name": "ИИииии",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2e82d12f-785e-412b-bc75-a9e9e75141e3",
+    "app_id": 58866,
+    "name": ".",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2e95e524-739a-4ea8-ac22-45b0ecc2f53b",
+    "app_id": 58866,
+    "name": "Cian builders calls",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "b037c65a-743e-4673-86a4-cd2578fdcb2d",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "b10ff51b-2c5a-435f-a5b1-af496dce52d1",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "a3d94341-4951-470a-984e-18d01b49040f"
+        },
+        "component_configuration": {
+          "id": "2b98a762-5512-4562-865f-1116bf37a3c5"
+        },
+        "integration_installation": {
+          "id": "19ab0fca-b574-45c0-be33-4a0f31dff0f3"
+        }
+      }
+    },
+    "parent_id": "3768c858-d79d-4d35-9023-5f1be03afd25",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "2ebe0e87-8e64-491f-83cd-3cf22b5fbfda",
+    "app_id": 58866,
+    "name": "  AlfaCRM_Текстовые коммуникации",
+    "description": "DEV",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "AlfaCRM",
+        "integration_id": "7ad6a479-f35c-4cc7-8798-0dfc0520fb84"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "2f7217b8-bc3a-4ce9-a158-d81dc6993ea8",
+    "app_id": 58866,
+    "name": "Jivo - Передача чатов из Jivo",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "JivoSite",
+        "integration_id": "e0f0b0f3-b52d-4dd0-832c-7dfd1df776a8"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "3064aa42-a9f4-4450-89da-a73a85ca7135",
+    "app_id": 58866,
+    "name": "Открытые линии: Битрикс24 (новая авторизация)",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "8bad6a45-a949-44dd-83f6-5ebfb332e5c2",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "bitrix24",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "2820a454-c543-480e-bb83-46ef26cb7f30"
+        },
+        "component_configuration": {
+          "id": "e6c3e071-3680-4728-8f20-ba8c5fc91322"
+        },
+        "integration_installation": {
+          "id": "890566a7-b543-44f7-aa0a-10285900b331"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "38ce93b1-ba0e-4b81-9b11-26421c3d8c05",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "30ac24e6-b818-48b4-9aec-7778d3258dc2",
+    "app_id": 58866,
+    "name": "test method call",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "312848da-5673-4b29-8b73-d001ec8328b4",
+    "app_id": 58866,
+    "name": "amoCRM - Заявки",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "82ae32ac-73bb-4812-96d7-1c5479a114ae",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "amocrm_omni",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "73460205-64fc-4290-bf11-3227083642be"
+        },
+        "component_configuration": {
+          "id": "f3204b4f-fe86-487a-ac5a-b5a5700e08a0"
+        },
+        "integration_installation": {
+          "id": "f158eeee-b0b4-48a1-8bc3-47558bba08df"
+        }
+      }
+    },
+    "parent_id": "18a5be7a-b5cd-479f-8e97-ee0030025c32",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "31597705-d322-49dc-8caa-c9a9f2481b21",
+    "app_id": 58866,
+    "name": "debug",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3206aa35-378c-4630-8fa9-b345b98e643e",
+    "app_id": 58866,
+    "name": "МойСклад_текстовые коммуникации_родительская",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "20dae97e-80ef-4c99-848f-e3bf4b1fd7ae",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "763e6508-a189-449c-8432-373d9b0e348f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "2b9256e6-0831-47c7-986f-f70ed1d55b22"
+        },
+        "component_configuration": {
+          "id": "426bb8fd-d03b-495c-9282-284dc957b6b5"
+        },
+        "integration_installation": {
+          "id": "2cd8493a-0bf6-4c4e-88ed-b8a8fcb37a95"
+        }
+      }
+    },
+    "parent_id": "515625b8-d1df-4022-b96e-d074484f4af4",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "32b1f161-daef-4d1a-b7d4-2d60d6b3aad8",
+    "app_id": 58866,
+    "name": "Тест для конвертера",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "32b1f161-daef-4d1a-b7d4-2d60d6b3aad9",
+    "app_id": 58866,
+    "name": "Test_vum",
+    "description": "string",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "32b7c8d5-5fdd-4331-ae0f-cf41efdd507c",
+    "app_id": 58866,
+    "name": "СИНК 666",
+    "description": "новый классный синк",
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3336ab50-1381-4637-9df2-4ab70e5cd9df",
+    "app_id": 58866,
+    "name": "🚨 Мониторинг 🚨",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "339207b0-3eaf-4dbf-82df-8b4d9ddc4a6f",
+    "app_id": 58866,
+    "name": "Synergy CRM v2",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "1d7cd737-498b-4d7d-95b3-0d87e406f8a6",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "20f8bb93-6f5f-4b9b-b19b-ab8051d50813",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "72f6e54e-83b0-4bc4-ac95-6a7302353785"
+        },
+        "component_configuration": {
+          "id": "b84a6caf-38ae-4a4f-a267-29f589fab45c"
+        },
+        "integration_installation": {
+          "id": "316c42e2-0e61-4d1d-a569-b75154bd61fb"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "d4d8ca23-f9e2-49a9-a147-24e0e489e376",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "33cc5d1d-b8e5-440d-90ce-64d5ba648a91",
+    "app_id": 58866,
+    "name": "get",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "340f28f1-fd9e-440f-af81-3e1c3da98fa7",
+    "app_id": 58866,
+    "name": "Bitrix24 Открытые линии",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "9a75a5f8-9b39-43d7-9ea3-529838980517",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "eb02f542-e447-4bf9-8288-ad8bd7e4c841",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "e07dbb39-4abc-4c06-855b-c98dfb142c78"
+        },
+        "component_configuration": {
+          "id": "d8ce33a2-9461-4dc8-b905-bbae73afc79b"
+        },
+        "integration_installation": {
+          "id": "9f46e3e0-c52e-4f13-9c1c-3ebb48bc2032"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "858e08b0-4d59-4371-8fbb-d2e8840a7ae7",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "34b4ffa6-b55f-4ce7-8c36-b38b4c19c1a4",
+    "app_id": 58866,
+    "name": "Yclients_телефония",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "461499bc-7764-4eb8-9df9-e46c3f641531",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "2ed99d76-19bd-4a2f-8120-d2029bfc6417",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "0ffcaab4-6dfa-46d5-996e-bd2b96241b62"
+        },
+        "component_configuration": {
+          "id": "9141a4e8-83c2-45e0-b144-c7c5b9c4c5a1"
+        },
+        "integration_installation": {
+          "id": "22b3664f-a7f0-4ae9-839f-f6b4108e6e0d"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "1c38c278-683f-4d4f-a3ae-c8e01d1b4a3b",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "35273a99-89b3-45bb-a5cb-ad47af749e40",
+    "app_id": 58866,
+    "name": "Retail_Фло тест миграций настроек_dev",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Ритейл Миграция",
+        "integration_id": "0d8206c3-fdee-4df1-9b31-44f7c91845e2"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "35d4b90c-3002-4e94-9106-66db300860eb",
+    "app_id": 58866,
+    "name": "amoback",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": [
+      {
+        "id": "d10cf687-dec0-4f35-b608-94a1decbffaa",
+        "name": "amoCRM OMNI",
+        "color": "color9",
+        "app_id": 58866,
+        "created_at": "2025-09-18T08:11:40.981852"
+      }
+    ],
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3632b5a4-5e6f-4e9f-b497-b88d9144fda6",
+    "app_id": 58866,
+    "name": "Emailtracking",
+    "description": "dev",
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "9ac52651-b649-451f-89f3-0e8e501094cd",
+          "app_id": 1103
+        },
+        "integration": {
+          "id": "email_tracking",
+          "app_id": 1103
+        },
+        "component_installation": {
+          "id": "d41c6687-6e8e-4ca6-a064-fcd4d0377dbf"
+        },
+        "component_configuration": {
+          "id": "984006ec-401c-4fbb-9386-4e729a69e3ff"
+        },
+        "integration_installation": {
+          "id": "0e61cb60-2de6-4426-9e4d-357e561f20d3"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "366b4ad5-5db0-4aa0-a63a-46b6ee0d8dfa",
+    "app_id": 58866,
+    "name": "filtre",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "36a6cb87-37c1-4a72-bb47-789084e3e647",
+    "app_id": 58866,
+    "name": "Медси - Кастомная доработка под клиента",
+    "description": "Кастом",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "36d3c80f-1934-48b4-9d8d-cd7af62d4e84",
+    "app_id": 58866,
+    "name": "Yclients: Триггерные рассылки",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "YC триггерные коммуникации",
+        "integration_id": "b14c2289-8335-42d4-8fbe-3183c973f493"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "3768c858-d79d-4d35-9023-5f1be03afd25",
+    "app_id": 58866,
+    "name": "Cian builders calls",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Циан",
+        "integration_id": "b10ff51b-2c5a-435f-a5b1-af496dce52d1"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "37d2929b-c671-47cd-94b4-3626480a0e17",
+    "app_id": 58866,
+    "name": "000_ya_debug",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "38164f63-85cb-4860-826d-3838b343c0c0",
+    "app_id": 58866,
+    "name": "Релиз 20.10.25",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "38999cf0-e290-43e6-adab-4bff6e5e159c",
+    "app_id": 58866,
+    "name": "AsproCloud-телефония",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "38ce93b1-ba0e-4b81-9b11-26421c3d8c05",
+    "app_id": 58866,
+    "name": "Открытые линии: Битрикс24 (новая авторизация)",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Bitrix24 - OMNI",
+        "integration_id": "bitrix24"
+      },
+      {
+        "name": "Тест объединенных открытых линий",
+        "integration_id": "eabb6862-63dd-4e79-8bf2-a6d3ccd58c93"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "38d9a0fd-f0ae-46ee-a725-01a91d456ec4",
+    "app_id": 58866,
+    "name": "test_ivanov",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "38e5732d-4bd3-42eb-828b-370cbae22155",
+    "app_id": 58866,
+    "name": "Yclients: заявки",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "429d3c72-02c9-4b0c-8180-5c1f18f48ce5",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "2ed99d76-19bd-4a2f-8120-d2029bfc6417",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "0c2adaee-b537-4c7b-b7f1-753e6dca75d7"
+        },
+        "component_configuration": {
+          "id": "2aae32cf-85d8-42b0-9dc6-996934f8763d"
+        },
+        "integration_installation": {
+          "id": "1b8f408e-3701-41e9-b194-c6ba4b467402"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "a8cd3546-1ff8-4f5e-bb8a-80867c1fea71",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "39c2984c-9e08-4bf0-b213-c40572179ab3",
+    "app_id": 58866,
+    "name": "aks_test",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "aks test",
+        "integration_id": "d3aeb07a-73fa-4a23-9dc3-282219838e34"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3a50a13a-299d-40e0-961e-3fdd8a2fc2c7",
+    "app_id": 58866,
+    "name": "medsi-pml",
+    "description": "dev",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "55bc2649-b1a2-4139-9889-b093e4036697",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "2b85441e-1a7d-41ed-ac16-ff8fc54a6212",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "37221d55-0037-437c-9c81-7d4a00a50120"
+        },
+        "component_configuration": {
+          "id": "d75edd2c-b432-407b-87af-0d2eaa909d74"
+        },
+        "integration_installation": {
+          "id": "b7923031-3d3f-40df-b9c6-257677e61267"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "215fe9bf-2b61-4add-8303-9cf0ec1a51d2",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3a6d77f2-39e0-4bfc-ac5b-6226e8e8fbda",
+    "app_id": 58866,
+    "name": "Planfix-текстовые",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "3ae90c6f-c647-4e7b-af2f-2f0c235c8d30",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "84ee8739-2496-4765-ab36-53bad807ca7e",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "99bb0918-90a8-41c0-a425-5b56d21b7b1d"
+        },
+        "component_configuration": {
+          "id": "d5cb4bb4-43f3-44c9-8155-ec25c6f6d9d7"
+        },
+        "integration_installation": {
+          "id": "acad4cd5-0b4c-4c01-932e-1320c8fa0be8"
+        }
+      }
+    },
+    "parent_id": "a0302a16-f5c0-4a13-b128-79544d7cabf8",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3aaadc47-6f59-4d7e-b7d6-37dd9a41d6af",
+    "app_id": 58866,
+    "name": "Битрикс Чаты КОПИЯ (НЕ УДАЛЯТЬ!)",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3b34bd41-fea0-45dd-9296-e2c72e81d24d",
+    "app_id": 58866,
+    "name": "Bitrix24 Главная",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "21bae3f2-377a-4801-8cf6-6be1a9f8f736",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "bitrix24",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "e29ad028-6b99-43f2-8fd0-37c3317512cd"
+        },
+        "component_configuration": {
+          "id": "bccd069b-cb1c-4ac9-8a20-e0d91cf3c47e"
+        },
+        "integration_installation": {
+          "id": "890566a7-b543-44f7-aa0a-10285900b331"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "52887c51-4e67-49be-996c-68edded15e44",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3be91d52-23bd-4625-bf12-ce1a7e41a942",
+    "app_id": 58866,
+    "name": "QA_Test_PP_Flow_2",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "QA_Test_PP_1",
+        "integration_id": "e1a29d9f-89e0-4cc9-ad44-95863ba7c400"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "3c6a2da4-6c46-43b5-916b-866ee4684c65",
+    "app_id": 58866,
+    "name": "Простые звонки",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Простые звонки",
+        "integration_id": "7d67e86c-ecd8-43b1-aa1e-b2ea80d0dd5d"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3c9e71b1-4955-4b01-96e4-ffbbaf951506",
+    "app_id": 58866,
+    "name": "RetailCRM_синхронизация сотрудников_dev",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "1fd4f52f-8c8d-48a9-9d52-ecf9f4da0637",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "d39d40fe-ce2f-4aad-a4bd-f65772231052",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "bebb0fe9-7307-4b90-b65d-c11a54186d9c"
+        },
+        "component_configuration": {
+          "id": "d8eb80b4-ceea-41a7-995a-4f60fa1c727c"
+        },
+        "integration_installation": {
+          "id": "366b1e4d-ea61-4236-85f8-2ecb73df0076"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "5ffbb4ff-d16a-4b89-b0df-41428d014c39",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3e170fe6-d696-4739-9782-3db29b444c3c",
+    "app_id": 58866,
+    "name": "Medflex",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "99b3a9a8-7448-4dde-a28a-93dec6caa495",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "medflex",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "00929a3a-9307-488a-be08-14e62a91daf9"
+        },
+        "component_configuration": {
+          "id": "d9475627-f94a-4627-bdc6-9f59081f8a38"
+        },
+        "integration_installation": {
+          "id": "625cebe4-a7c0-4324-b294-a432a28a0858"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "5911f1eb-144a-416b-9fd8-9e08df55b307",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3f6b748b-db58-4c5c-bf2c-885d2f0a96e6",
+    "app_id": 58866,
+    "name": "Mindbox",
+    "description": "DEV",
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Mindbox",
+        "integration_id": "bf515166-7aa9-4812-9853-bc7aa0211364"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "3faa845f-c322-471d-8721-363ae88c5ebd",
+    "app_id": 58866,
+    "name": "Bitrix24 Перенос интеграции на Comagic",
+    "description": "Флоу переноса интеграции на 75159 app comagic",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "4038655d-bb50-4826-8d1f-bec5475989a4",
+    "app_id": 58866,
+    "name": "Hollihop - Сделки",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Hollihop",
+        "integration_id": "69f73403-be0c-4a5b-808a-832f30007407"
+      },
+      {
+        "name": "Hollihop",
+        "integration_id": "aed34245-a205-4335-8768-80eadad87dde"
+      },
+      {
+        "name": "Hollihop - Сделки",
+        "integration_id": "2c3e4c33-2957-4c1f-80fd-e0004872e8e9"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "419be96f-6805-4650-8bd8-3d1c7d09506f",
+    "app_id": 58866,
+    "name": "Test",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "41dc322e-befd-47de-a53a-ea6ab4200a53",
+    "app_id": 58866,
+    "name": "Yclients_мегафон",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "41dd8e76-4a14-437c-bb51-5f234e545859",
+    "app_id": 58866,
+    "name": "Marquiz - Quiz to Offline messages",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Marquiz",
+        "integration_id": "0cc7882b-bdec-4c49-b5f0-9769b387a756"
+      },
+      {
+        "name": "Marquiz",
+        "integration_id": "f6efd59b-d222-45ef-8b34-2527b49caa50"
+      },
+      {
+        "name": "марквиз",
+        "integration_id": "e95902d4-96e3-4bf3-be09-07c6cdab9050"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "41e823f2-654e-4f7c-a493-bcf67fe3fcc8",
+    "app_id": 58866,
+    "name": "S2_сделки_v2",
+    "description": "DONE",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "S2 (salesap)",
+        "integration_id": "2ad0e911-b3f7-4485-9b1a-2a80e1398b8b"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "420c7afd-d0c7-4382-92da-e71ac6e46a99",
+    "app_id": 58866,
+    "name": "Pyrus",
+    "description": "DEV",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "4244be9a-8f6b-4dbb-a18f-d67e04ecf70d",
+    "app_id": 58866,
+    "name": "Emailtracking",
+    "description": "Email: markety-is-the-best@yandex.ru. Period: 1",
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "9ac52651-b649-451f-89f3-0e8e501094cd",
+          "app_id": 1103
+        },
+        "integration": {
+          "id": "email_tracking",
+          "app_id": 1103
+        },
+        "component_installation": {
+          "id": "c40002d0-27ee-4523-9111-80d0942a2e03"
+        },
+        "component_configuration": {
+          "id": "984006ec-401c-4fbb-9386-4e729a69e3ff"
+        },
+        "integration_installation": {
+          "id": "63150da7-53d4-4e34-a618-3126a349cc76"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "42890e20-92e4-4efe-8230-47b572eb49a1",
+    "app_id": 58866,
+    "name": "Yclients_телефония",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "1847be5e-6d6c-4d51-a8e6-85011b7025ae",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "test",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "46e9663a-56e1-4195-bf91-310214819f98"
+        },
+        "component_configuration": {
+          "id": "c26de38a-4aca-4e73-941b-ee951acbca5a"
+        },
+        "integration_installation": {
+          "id": "3ada5043-c3d3-4d9a-ad0b-41d146b981af"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "0b6c1a51-97a7-49ce-9b39-b403e75560e5",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "42ab43ca-406e-404d-8519-45d1e2fdd9a9",
+    "app_id": 58866,
+    "name": "RetailCRM - Сделки (Новая версия)",
+    "description": "DONE",
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "5e21b83e-29e0-4f58-b011-512f03e5931c",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "d39d40fe-ce2f-4aad-a4bd-f65772231052",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "3469b77b-134f-4ff8-beab-5e51a5aaafb6"
+        },
+        "component_configuration": {
+          "id": "60e107c5-7b39-4711-977f-93b6f747d945"
+        },
+        "integration_installation": {
+          "id": "6bc5f425-901a-4a5e-a4a6-20ac3023181a"
+        }
+      }
+    },
+    "parent_id": "142f262c-afd3-4d10-b1a1-bacbaf7af4db",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "431db513-beaf-4087-931a-ecb467df6903",
+    "app_id": 58866,
+    "name": "Custom_fields_AMO",
+    "description": "Передача кастомных полей в поля АМО",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "433b3313-bafe-49d3-89c0-d95be97bbdf3",
+    "app_id": 58866,
+    "name": "Megaplan_телефония",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "f31282ef-0c86-47f4-b9ec-b5b0c2c43695",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "346752ce-145e-40db-a47b-0ce4d048d03f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "2f88c858-0e84-41ee-8a38-bf9febb5ea6a"
+        },
+        "component_configuration": {
+          "id": "1597a336-07ad-4e92-8a32-84dd00619447"
+        },
+        "integration_installation": {
+          "id": "8ec75f5b-56d4-41c6-b9fc-0d0d12394583"
+        }
+      }
+    },
+    "parent_id": "731b8c1d-bde4-43f3-a7e5-93221d975d1d",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "43c5cbd5-c5f7-426a-adbe-a24179469e5e",
+    "app_id": 58866,
+    "name": "Retail CRM Телефония",
+    "description": "на старых NS",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "RetailCRM 2.0",
+        "integration_id": "d39d40fe-ce2f-4aad-a4bd-f65772231052"
+      },
+      {
+        "name": "retail_test",
+        "integration_id": "78233772-0cf4-48a0-a1d1-143d22f8007e"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "4519ac1e-1937-4c8a-85b1-62d70f6fa63a",
+    "app_id": 58866,
+    "name": "method_call_new",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "45314723-16f5-4409-a74e-adb9fc89d7f0",
+    "app_id": 58866,
+    "name": "Bitrix24 Открытые линии",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "db872678-1178-4c7b-b6b5-061fcc932ba8",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "eabb6862-63dd-4e79-8bf2-a6d3ccd58c93",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "4023d0af-ba31-4e08-bbb8-5eb916f6b825"
+        },
+        "component_configuration": {
+          "id": "12eb325a-f397-4a5a-b9dd-5115de2c7271"
+        },
+        "integration_installation": {
+          "id": "2c71cbaa-6c19-4e93-ab0e-8be171b36051"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "858e08b0-4d59-4371-8fbb-d2e8840a7ae7",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "463b6642-870f-48ca-92a8-f7e4b1970bcf",
+    "app_id": 58866,
+    "name": "crm_engine(пример от Марка)",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "467d48be-b62a-4e9f-b11e-f1bd4a38908c",
+    "app_id": 58866,
+    "name": "test-planfix",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "46ad1538-4e1e-4093-b3ae-53b77139a5c8",
+    "app_id": 58866,
+    "name": "okdesk телефония",
+    "description": "НЕ УДАЛЯТЬ!",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "46ff115f-b931-4316-88d8-bb73f07258a8",
+    "app_id": 58866,
+    "name": "retailcrm_dev_test_flow",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "47e53b22-b344-4759-ace6-d5470a0f347b",
+    "app_id": 58866,
+    "name": "method call nodes",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "48448876-ca01-4f05-8a67-69fd03a1bb33",
+    "app_id": 58866,
+    "name": "Yclients_телефония",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "461499bc-7764-4eb8-9df9-e46c3f641531",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "2ed99d76-19bd-4a2f-8120-d2029bfc6417",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "5897554e-9971-4318-b659-ddf32c04539d"
+        },
+        "component_configuration": {
+          "id": "75aec6e0-2fd5-443e-9e91-cd19edfc6410"
+        },
+        "integration_installation": {
+          "id": "1b8f408e-3701-41e9-b194-c6ba4b467402"
+        }
+      }
+    },
+    "parent_id": "1c38c278-683f-4d4f-a3ae-c8e01d1b4a3b",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "48717ad0-b9e9-4b81-8b2c-3d69cf681762",
+    "app_id": 58866,
+    "name": "CRM Автошкола",
+    "description": "DEV",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "48dc24a1-0116-4291-87ee-772117c7421a",
+    "app_id": 58866,
+    "name": "amoCRM - Синхронизация сотрудников",
+    "description": "Синхронизация сотрудников",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": [
+      {
+        "id": "d10cf687-dec0-4f35-b608-94a1decbffaa",
+        "name": "amoCRM OMNI",
+        "color": "color9",
+        "app_id": 58866,
+        "created_at": "2025-09-18T08:11:40.981852"
+      }
+    ],
+    "integrations": [
+      {
+        "name": "amoCRM - OMNI",
+        "integration_id": "amocrm_omni"
+      },
+      {
+        "name": "amoCRM - Демо",
+        "integration_id": "9c0d79c6-c5d3-484e-a314-70234789d51a"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "49586d07-7bdc-41f3-ac79-16bda6d234a1",
+    "app_id": 58866,
+    "name": "Planfix-текстовые",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "3ae90c6f-c647-4e7b-af2f-2f0c235c8d30",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "84ee8739-2496-4765-ab36-53bad807ca7e",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "138929c2-afe2-43fc-8093-2a9c4504512a"
+        },
+        "component_configuration": {
+          "id": "d5cb4bb4-43f3-44c9-8155-ec25c6f6d9d7"
+        },
+        "integration_installation": {
+          "id": "0a785e78-d905-4f89-8a10-dd26e8f359c8"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "a0302a16-f5c0-4a13-b128-79544d7cabf8",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "49c3bb63-6269-4a35-a060-1325c6402340",
+    "app_id": 58866,
+    "name": "RetailCRM_телефония",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "9aff5e0e-21c3-4d67-8481-185e2a24cf4f",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "d39d40fe-ce2f-4aad-a4bd-f65772231052",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "0ed11754-4df0-4860-a13c-c0519070f0a0"
+        },
+        "component_configuration": {
+          "id": "01631ba2-a6e2-462c-9a7b-8a20a168c5d7"
+        },
+        "integration_installation": {
+          "id": "6bc5f425-901a-4a5e-a4a6-20ac3023181a"
+        }
+      }
+    },
+    "parent_id": "be5edfd2-a221-443f-8776-ba3f96076f91",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "4a2b0595-43f2-4b4e-b2f7-a91bebdbcf5c",
+    "app_id": 58866,
+    "name": "Релиз 09.10.25",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Релиз 09.10.25",
+        "integration_id": "69c51cb8-39bb-44d1-b270-2aac0f13506f"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "4a340325-3c8c-483f-885d-1d3412365f52",
+    "app_id": 58866,
+    "name": "test_webhook_sync",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "ba37236f-01d5-4daf-a15c-67e85321f202",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "55751120-d18c-4b8e-bf2e-3b987c69d334",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "f1b7fc60-c8a0-4206-9732-9eea3074947c"
+        },
+        "component_configuration": {
+          "id": "c10ac2ce-8153-460f-9418-11266357fe73"
+        },
+        "integration_installation": {
+          "id": "7772dead-f013-4bc2-a89a-f881162c8036"
+        }
+      }
+    },
+    "parent_id": "773a9523-a206-4a90-a392-ca6c5bf688eb",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "4ac9a7a1-0fef-4697-b3df-2f2428987ac7",
+    "app_id": 58866,
+    "name": "Тегирование",
+    "description": "DEV_доделать",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Амо тегирование",
+        "integration_id": "573de54d-1a20-49ad-8a56-751b9d0ba0d6"
+      },
+      {
+        "name": "АМО - тегирование",
+        "integration_id": "401d6268-87a4-4776-8a59-ac9f8e84186a"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "4b04ca6d-6a8b-4708-891a-d6fdbea67b82",
+    "app_id": 58866,
+    "name": "test_uc_flow_errors",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "4b42a10c-c4dc-4abf-ab11-a9b5ea08ad5e",
+    "app_id": 58866,
+    "name": "YClients - Upload deals from YClients ",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "45806015-ed37-475c-b384-758ccb074038",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "2ed99d76-19bd-4a2f-8120-d2029bfc6417",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "ab4bc850-b647-4a32-844b-de566113c4e8"
+        },
+        "component_configuration": {
+          "id": "8d2d1d26-7edd-4a54-ae59-a7fcb7a81fd3"
+        },
+        "integration_installation": {
+          "id": "1b8f408e-3701-41e9-b194-c6ba4b467402"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "abd71cbe-b733-4ea0-b298-b42e47e305c4",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "4bca7993-342f-41e3-ac9a-ef807899f0a9",
+    "app_id": 58866,
+    "name": "CIAN test",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "4c0b7f8d-5199-45b1-90d2-96d39097c372",
+    "app_id": 58866,
+    "name": "Yclients - текстовые коммуникации",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "test_Y",
+        "integration_id": "3e7e1c57-d036-4cb1-8a3d-79d06bd4b3dc"
+      },
+      {
+        "name": "YClients",
+        "integration_id": "2ed99d76-19bd-4a2f-8120-d2029bfc6417"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "4cdd3d3f-924d-49b0-916a-bed2d605ea78",
+    "app_id": 58866,
+    "name": "Talk-me",
+    "description": "DEV_реализовать",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Talk-me",
+        "integration_id": "0e0105d4-b887-412f-b128-d00bf668d414"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "4d5c10ef-c55c-405d-88da-c2e9588a069e",
+    "app_id": 58866,
+    "name": "uc-flow111",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "tst",
+        "integration_id": "e7de0e6b-a3ca-4e7b-8f26-4331fb528f0e"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "4e6480e1-4e91-4cc4-b328-9371bf17544e",
+    "app_id": 58866,
+    "name": "Megaplan - текстовые коммуникации",
+    "description": "DEV",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Мегаплан 2.0",
+        "integration_id": "346752ce-145e-40db-a47b-0ce4d048d03f"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "4f1dbc5f-f0c6-47fe-9f64-9dc54ad413c5",
+    "app_id": 58866,
+    "name": "amoCRM - Сделки",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "18c7c521-8e29-45da-826c-098aa978658c",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "9c0d79c6-c5d3-484e-a314-70234789d51a",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "31aa12e6-521c-4028-aaad-f36ef629d1d4"
+        },
+        "component_configuration": {
+          "id": "08cd8a55-34b4-4a37-8816-9c023802dc71"
+        },
+        "integration_installation": {
+          "id": "f7f41244-8810-4abf-bec9-92fca8b7f6cc"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "aa6d3151-08c4-4a17-a0f4-18b6e20f0850",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "504985d2-59db-40cc-b827-aaec92fefb0c",
+    "app_id": 58866,
+    "name": "Релиз 17.09.25",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Релиз 17.09.25",
+        "integration_id": "c31b0830-a4f9-4e84-9bfd-1c9abf6d2ac4"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "50ab717a-c98f-4b3f-a13e-19d510690cee",
+    "app_id": 58866,
+    "name": "Envybox - передача обращений",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "fa113c48-cc44-44ec-b128-315b7e23a40f",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "0997a8c5-284b-4f47-8c71-6fca299d9200",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "a8d3cf74-b31c-4ddd-9fd2-ad146538af33"
+        },
+        "component_configuration": {
+          "id": "657a7e87-81cb-4407-b015-b97cbf7b1070"
+        },
+        "integration_installation": {
+          "id": "01de0c78-d4e1-4e45-8130-ccdcfdbc866d"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "cf5ed701-5ec9-462d-a3dd-9717b02fb272",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "50ad61ec-ce0e-4591-a5a2-fde482ebea8f",
+    "app_id": 58866,
+    "name": "Planfix-сделки",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "b7f7a532-4daf-4526-a2d0-ed1a814f31bc",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "84ee8739-2496-4765-ab36-53bad807ca7e",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "81a90b52-af41-47e3-a21a-79e137cf1d8f"
+        },
+        "component_configuration": {
+          "id": "55facf2f-c242-481f-93f3-954eb11ead03"
+        },
+        "integration_installation": {
+          "id": "c6f039b2-1af6-43b0-a005-e51b1923bc0c"
+        }
+      }
+    },
+    "parent_id": "18159509-5cc3-4845-aec5-12fcd684c298",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "515625b8-d1df-4022-b96e-d074484f4af4",
+    "app_id": 58866,
+    "name": "МойСклад_текстовые коммуникации_родительская",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "МойСклад",
+        "integration_id": "763e6508-a189-449c-8432-373d9b0e348f"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "51bbecda-58af-4ae3-8fe0-778e8d0c7d96",
+    "app_id": 58866,
+    "name": "Массовые рассылки(нативный фронт)",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Массовые рассылки",
+        "integration_id": "880385e1-9f7d-4956-80d0-95360f2b64a5"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "51d94c89-8929-47c8-b7aa-8a6564c26fd9",
+    "app_id": 58866,
+    "name": "ProfSalon-Dev",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "27356bf2-f5ea-4ec0-8fbc-8ff81e8260c5",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "fd07fb66-e1e6-4bef-9dfe-03ec3e86b83f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "c93d8d7a-cd48-4d48-bbd0-1e8b3733e730"
+        },
+        "component_configuration": {
+          "id": "58e55321-70ae-480e-8516-e2333241aef1"
+        },
+        "integration_installation": {
+          "id": "d5b38e86-e28d-4862-b1a2-427a9aa08d19"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "a1530f6b-cc8a-4d92-b366-26ed71a0a921",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "523f41f1-694f-4ac5-a5a2-65ad50762404",
+    "app_id": 58866,
+    "name": "QA_Test_PP_Flow_2",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "f8ba20be-a03b-4deb-9d94-811610ed3c33",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "e1a29d9f-89e0-4cc9-ad44-95863ba7c400",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "4ab4ba5e-da8d-49f3-b05b-59a424004676"
+        },
+        "component_configuration": {
+          "id": "74c6256f-2dc9-4760-833c-4178e97d9f49"
+        },
+        "integration_installation": {
+          "id": "6671aa3b-1e67-4661-b9a0-97ce3bda26b4"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "3be91d52-23bd-4625-bf12-ce1a7e41a942",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5284cdf2-5582-4155-89e4-71023d635dd0",
+    "app_id": 58866,
+    "name": "retailCRM - мегафон",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "52887c51-4e67-49be-996c-68edded15e44",
+    "app_id": 58866,
+    "name": "Bitrix24 Главная",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": [
+      {
+        "id": "9c4059e6-54aa-424a-873a-3d661df35c63",
+        "name": "bitrix24 OMNI",
+        "color": "color5",
+        "app_id": 58866,
+        "created_at": "2025-09-22T09:37:44.447766"
+      }
+    ],
+    "integrations": [
+      {
+        "name": "Bitrix24 - OMNI",
+        "integration_id": "bitrix24"
+      },
+      {
+        "name": "Bitrix24 Чаты и офлайн заявки (тест)",
+        "integration_id": "bitrix24-1"
+      },
+      {
+        "name": "Битрикс24 - Демо",
+        "integration_id": "eb02f542-e447-4bf9-8288-ad8bd7e4c841"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "52a8ff3d-81b1-404e-92d9-82de9541ebb9",
+    "app_id": 58866,
+    "name": "uc-flow error trigger",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "531d417b-370a-4a12-959e-dceff15e4e63",
+    "app_id": 58866,
+    "name": "МойСклад_синхронизация",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "3d2699fb-1741-4a64-ba51-abbc7fd2107c",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "763e6508-a189-449c-8432-373d9b0e348f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "1c09a130-fd94-48b3-bcd5-b9b8679985ea"
+        },
+        "component_configuration": {
+          "id": "799cb5c3-cdf9-4835-b7ce-4ec86848bbb6"
+        },
+        "integration_installation": {
+          "id": "2cd8493a-0bf6-4c4e-88ed-b8a8fcb37a95"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "c03b8dcc-53db-4c26-8465-5739cd1a99cc",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "534e352e-a1fd-4481-b0b8-dcf8d70526ab",
+    "app_id": 58866,
+    "name": "Planfix-синхронизация",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "ba944348-041a-4456-a21f-9ef8073687b0",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "84ee8739-2496-4765-ab36-53bad807ca7e",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "17e0c666-98c2-44d1-9a03-33618a6ac5af"
+        },
+        "component_configuration": {
+          "id": "87eed853-4078-441e-a79d-22c20659d679"
+        },
+        "integration_installation": {
+          "id": "988830a0-356b-4d68-bf28-6f7206b8590a"
+        }
+      }
+    },
+    "parent_id": "5fe984ea-44f6-44b0-88cb-23a8f20bef8b",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5359e223-d637-43f6-a491-0e39c6042b24",
+    "app_id": 58866,
+    "name": "RetailCRM - Сделки (Новая версия)",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "5e21b83e-29e0-4f58-b011-512f03e5931c",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "d39d40fe-ce2f-4aad-a4bd-f65772231052",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "d0415623-6836-4f93-95bd-2cea8889d1ca"
+        },
+        "component_configuration": {
+          "id": "60e107c5-7b39-4711-977f-93b6f747d945"
+        },
+        "integration_installation": {
+          "id": "2841e2b1-9f95-4f6b-937f-ee9ff4ce4e72"
+        }
+      }
+    },
+    "parent_id": "142f262c-afd3-4d10-b1a1-bacbaf7af4db",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5398b6ee-d4e8-4efc-b7bb-3186549bfbae",
+    "app_id": 58866,
+    "name": "Массовые рассылки(нативный фронт)",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "8f733e21-e6fa-4ee6-af87-20048a1bfd54",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "880385e1-9f7d-4956-80d0-95360f2b64a5",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "3f900114-bfc3-4b0c-9e61-86e4641bb57a"
+        },
+        "component_configuration": {
+          "id": "138b499b-2d3f-46ba-8247-5d24afb88a09"
+        },
+        "integration_installation": {
+          "id": "b52d55a3-49cb-4c23-9861-f4ab68a1e3da"
+        }
+      }
+    },
+    "parent_id": "51bbecda-58af-4ae3-8fe0-778e8d0c7d96",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "539923a6-ab19-4ace-923d-77b3e4ee889b",
+    "app_id": 58866,
+    "name": "test robot webhook",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "567d5ec2-5705-4588-b1d1-072b33e77ff3",
+    "app_id": 58866,
+    "name": "релиз 04.09.25",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "572825d8-8f2d-421d-a63c-91cd93490e60",
+    "app_id": 58866,
+    "name": "Тегирование Битрикс ",
+    "description": "DEV_PRSL - 4265",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "57add97c-4e38-46cc-90d3-07494dbabad3",
+    "app_id": 58866,
+    "name": "ПланФикс - телефония",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Planfix",
+        "integration_id": "25df52ef-0f71-48fa-9886-384ed1c90225"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "57cb8bfc-2e28-4dba-8908-21fcc1a43dea",
+    "app_id": 58866,
+    "name": "amoCRM - Телефония",
+    "description": "Интеграции телефонии UIS с amoCRM",
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "68b60721-9e58-4d23-83f5-7503fd2be2f1",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "9c0d79c6-c5d3-484e-a314-70234789d51a",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "9f38c108-32c3-4b14-8bf6-d5731d4888f1"
+        },
+        "component_configuration": {
+          "id": "3a12d61f-6144-4229-98e8-1f0d9500783c"
+        },
+        "integration_installation": {
+          "id": "2d09d973-f3f0-4a6f-a898-482c04944cc6"
+        }
+      }
+    },
+    "parent_id": "7b40d548-8193-41f4-bc55-ee91531b60ff",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5911f1eb-144a-416b-9fd8-9e08df55b307",
+    "app_id": 58866,
+    "name": "Medflex",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Medflex",
+        "integration_id": "medflex"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "5a3a3e23-ba44-4367-93c4-072a6198734b",
+    "app_id": 58866,
+    "name": "telegramm_auto_test",
+    "description": "Бот для принятия уведомлений об автотесте",
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5afa5430-ede7-4a89-afc1-6489827038db",
+    "app_id": 58866,
+    "name": "МойСклад_мегафон",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5afe351b-a4f7-459b-9d07-4b00a8e4cf59",
+    "app_id": 58866,
+    "name": "notify_backup",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5b157f37-f2f4-4dac-8ab3-81fa5a01be5d",
+    "app_id": 58866,
+    "name": "МойСклад_телефония_родительская",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "bb24fdfa-7e73-4557-b4eb-f14a32ea7067",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "763e6508-a189-449c-8432-373d9b0e348f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "56130562-199f-45a2-aa4c-e0d3aa035a7b"
+        },
+        "component_configuration": {
+          "id": "b1905b58-f022-42dd-be7e-7ff5e904ffd9"
+        },
+        "integration_installation": {
+          "id": "2cd8493a-0bf6-4c4e-88ed-b8a8fcb37a95"
+        }
+      }
+    },
+    "parent_id": "dc072a0c-2d64-4299-afae-531b1cd43c7b",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5b92c283-ba02-41f4-868a-7fa075ecba63",
+    "app_id": 58866,
+    "name": "sdgthf",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5bf95b39-1cdf-45af-a4f0-423fb2463ab0",
+    "app_id": 58866,
+    "name": "Bitrix24 Телефония",
+    "description": null,
+    "active": true,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": [
+      {
+        "id": "9c4059e6-54aa-424a-873a-3d661df35c63",
+        "name": "bitrix24 OMNI",
+        "color": "color5",
+        "app_id": 58866,
+        "created_at": "2025-09-22T09:37:44.447766"
+      }
+    ],
+    "integrations": [
+      {
+        "name": "Bitrix24 - OMNI",
+        "integration_id": "bitrix24"
+      },
+      {
+        "name": "Битрикс24 - Демо",
+        "integration_id": "eb02f542-e447-4bf9-8288-ad8bd7e4c841"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "5c239327-b258-495c-949d-a84b06f9321f",
+    "app_id": 58866,
+    "name": "canary",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "d5d44192-50ee-47d0-8763-aed103b982ba",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "canary",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "2c775070-a41b-4652-968e-f0d2c238f9ef"
+        },
+        "component_configuration": {
+          "id": "9a8943c9-e569-4033-aaa1-bd1662fcf75f"
+        },
+        "integration_installation": {
+          "id": "1d77e0ad-ce65-4f79-a646-3422498e7d4b"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "bf9fe5d7-5d80-4b0c-aece-2f89336818e1",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5c8304cc-9399-45fa-8270-4874455900f5",
+    "app_id": 58866,
+    "name": "Klientiks - телефония",
+    "description": "DEV",
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "0d5b25d1-fe82-42ff-b757-dd61b24b17d3",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "a7714cdb-9dc8-405b-b82d-8feb4346ac94",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "72d89e0b-53e9-4e53-9a1a-62537439f20e"
+        },
+        "component_configuration": {
+          "id": "f022b36e-6bf1-4aef-9ea0-25e8154e8c77"
+        },
+        "integration_installation": {
+          "id": "aebae538-4a3e-4970-8739-858c3cf75c31"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "720165b7-81ce-4182-b487-2410ad6915ae",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5d84d665-d435-4307-9bc7-2c58d3d5c186",
+    "app_id": 58866,
+    "name": "Megaplan_телефония",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "f31282ef-0c86-47f4-b9ec-b5b0c2c43695",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "346752ce-145e-40db-a47b-0ce4d048d03f",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "552431c6-ca71-4f4a-88a9-2427b8a234b5"
+        },
+        "component_configuration": {
+          "id": "e5ab7eb1-ac43-4995-a324-8849105257e9"
+        },
+        "integration_installation": {
+          "id": "386badec-cb28-4f35-9785-c5cd89a56994"
+        }
+      }
+    },
+    "parent_id": "731b8c1d-bde4-43f3-a7e5-93221d975d1d",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5d915dfc-c281-4645-8602-f3b226f8abcc",
+    "app_id": 58866,
+    "name": "Planfix-текстовые",
+    "description": null,
+    "active": true,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "3ae90c6f-c647-4e7b-af2f-2f0c235c8d30",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "84ee8739-2496-4765-ab36-53bad807ca7e",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "fab13f31-e4fc-4fc9-bdc8-ed6462b943d2"
+        },
+        "component_configuration": {
+          "id": "d5cb4bb4-43f3-44c9-8155-ec25c6f6d9d7"
+        },
+        "integration_installation": {
+          "id": "c6f039b2-1af6-43b0-a005-e51b1923bc0c"
+        }
+      }
+    },
+    "parent_id": "a0302a16-f5c0-4a13-b128-79544d7cabf8",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5df87b3c-f341-463d-8177-1ecbde901d77",
+    "app_id": 58866,
+    "name": "flomni",
+    "description": "Серёга, не удаляй",
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Flomni",
+        "integration_id": "268b9713-be1a-4a4e-a6f0-6383aac14cd9"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "5e7149cf-790f-4300-bbd1-92cdd18fcb9f",
+    "app_id": 58866,
+    "name": "RetailCRM_телефония",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "9aff5e0e-21c3-4d67-8481-185e2a24cf4f",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "d39d40fe-ce2f-4aad-a4bd-f65772231052",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "c38ff593-8b04-463d-90d7-fcd51fd638d0"
+        },
+        "component_configuration": {
+          "id": "01631ba2-a6e2-462c-9a7b-8a20a168c5d7"
+        },
+        "integration_installation": {
+          "id": "e1f9c9dc-c05e-4eb1-8f7b-ae143c110c2e"
+        }
+      }
+    },
+    "parent_id": "be5edfd2-a221-443f-8776-ba3f96076f91",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5e8cf4fb-0af5-4383-8278-6786ecdd8ded",
+    "app_id": 58866,
+    "name": "Chat2desk - Передача чатов из Chat2desk",
+    "description": "DONE",
+    "active": false,
+    "meta_data": {},
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Chat2Desk",
+        "integration_id": "ccf6dda6-0616-4dcc-9bcb-f978133a0dda"
+      }
+    ],
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5f758253-d031-440a-8c8b-30eafd8aad08",
+    "app_id": 58866,
+    "name": "uc-flow111",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "marketplace": {
+        "component": {
+          "id": "534b232e-5e6f-40e7-862c-f84e27c13f83",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "e7de0e6b-a3ca-4e7b-8f26-4331fb528f0e",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "4928bbf0-c442-4b9c-8a52-f97df7b1ecb4"
+        },
+        "component_configuration": {
+          "id": "d69f5bd7-be91-43fc-897a-6450ca674839"
+        },
+        "integration_installation": {
+          "id": "e6c0c0ab-9447-445a-b466-0566a5117b88"
+        }
+      },
+      "uc_flow": {}
+    },
+    "parent_id": "4d5c10ef-c55c-405d-88da-c2e9588a069e",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5fc22305-dabb-491b-b817-6f04b141edfd",
+    "app_id": 58866,
+    "name": "Jivo - Передача чатов из Jivo",
+    "description": "DONE",
+    "active": true,
+    "meta_data": {
+      "uc_flow": null,
+      "marketplace": {
+        "component": {
+          "id": "dfa867f1-3b72-4590-bbbb-18e9e34db627",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "e0f0b0f3-b52d-4dd0-832c-7dfd1df776a8",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "5af92f54-0477-4cb9-8b15-4f527ff866f8"
+        },
+        "component_configuration": {
+          "id": "6a5c2303-7ccd-4da7-a7df-61085c9b96a1"
+        },
+        "integration_installation": {
+          "id": "7bc11314-99a2-4a1d-95bb-2465feff9099"
+        }
+      }
+    },
+    "parent_id": "2f7217b8-bc3a-4ce9-a158-d81dc6993ea8",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5fc5a848-c6aa-4b95-a18a-c6a491cb4f7d",
+    "app_id": 58866,
+    "name": "RetailCRM_телефония",
+    "description": null,
+    "active": false,
+    "meta_data": {
+      "uc_flow": {},
+      "marketplace": {
+        "component": {
+          "id": "9aff5e0e-21c3-4d67-8481-185e2a24cf4f",
+          "app_id": 58866
+        },
+        "integration": {
+          "id": "d39d40fe-ce2f-4aad-a4bd-f65772231052",
+          "app_id": 58866
+        },
+        "component_installation": {
+          "id": "f12f205b-4037-44e6-bc14-36b758060a3a"
+        },
+        "component_configuration": {
+          "id": "01631ba2-a6e2-462c-9a7b-8a20a168c5d7"
+        },
+        "integration_installation": {
+          "id": "2841e2b1-9f95-4f6b-937f-ee9ff4ce4e72"
+        }
+      }
+    },
+    "parent_id": "be5edfd2-a221-443f-8776-ba3f96076f91",
+    "tags": null,
+    "integrations": null,
+    "has_children_in_same_app": false
+  },
+  {
+    "id": "5fe984ea-44f6-44b0-88cb-23a8f20bef8b",
+    "app_id": 58866,
+    "name": "Planfix-синхронизация",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "Planfix",
+        "integration_id": "84ee8739-2496-4765-ab36-53bad807ca7e"
+      }
+    ],
+    "has_children_in_same_app": true
+  },
+  {
+    "id": "5ffbb4ff-d16a-4b89-b0df-41428d014c39",
+    "app_id": 58866,
+    "name": "RetailCRM_синхронизация сотрудников_dev",
+    "description": null,
+    "active": false,
+    "meta_data": null,
+    "parent_id": null,
+    "tags": null,
+    "integrations": [
+      {
+        "name": "RetailCRM 2.0",
+        "integration_id": "d39d40fe-ce2f-4aad-a4bd-f65772231052"
+      },
+      {
+        "name": "Ритейл Миграция",
+        "integration_id": "0d8206c3-fdee-4df1-9b31-44f7c91845e2"
+      }
+    ],
+    "has_children_in_same_app": true
+  }
+]

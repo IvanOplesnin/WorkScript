@@ -1,0 +1,564 @@
+diff --git a/nodes_counter/analysis.ipynb b/nodes_counter/analysis.ipynb
+index 54f657b..e864b6a 100644
+--- a/nodes_counter/analysis.ipynb
++++ b/nodes_counter/analysis.ipynb
+@@ -2,15 +2,348 @@
+  "cells": [
+   {
+    "cell_type": "code",
+-   "execution_count": null,
+    "id": "initial_id",
+    "metadata": {
+-    "collapsed": true
++    "collapsed": true,
++    "ExecuteTime": {
++     "end_time": "2025-11-16T11:36:07.519391Z",
++     "start_time": "2025-11-16T11:36:07.513174Z"
++    }
+    },
+-   "outputs": [],
+    "source": [
+-    ""
+-   ]
++    "import json\n",
++    "\n",
++    "with open (\"flows_nodes_counter_result_fixed.json\", \"r\") as f:\n",
++    "    data = json.load(f)\n",
++    "\n",
++    "[data[d] for d in data if data[d]['count'] < 1]"
++   ],
++   "outputs": [
++    {
++     "data": {
++      "text/plain": [
++       "[{'count': 0, 'name': 'AlfaCRM Telephony', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Altegio API', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Amo Button', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Avito DEV', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'BI Pull', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'BI Push', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Call Assessment', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'CallTouch', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Cat Api Test', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0,\n",
++       "  'name': 'ChatAPI Action (deprecated)',\n",
++       "  'flows_ids': [],\n",
++       "  'links': []},\n",
++       " {'count': 0,\n",
++       "  'name': 'ChatAPI trigger (deprecated)',\n",
++       "  'flows_ids': [],\n",
++       "  'links': []},\n",
++       " {'count': 0,\n",
++       "  'name': 'Comagic Credential Types',\n",
++       "  'flows_ids': [],\n",
++       "  'links': []},\n",
++       " {'count': 0,\n",
++       "  'name': 'Comagic notification trigger response',\n",
++       "  'flows_ids': [],\n",
++       "  'links': []},\n",
++       " {'count': 0, 'name': 'DNM', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'example', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Google Ads Smartis', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Hubspot Auth', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'HubspotCRM', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Hubspot test', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Leadsquared', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'MacroCRM', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'MS Dynamics', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Odoo', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Odoo_test', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Pipedrive', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Salesforce', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'SMARTIS', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'TikTok Action', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'TikTok Trigger', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Vkontakte', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Yandex Direct', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Zendesk', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Zendesk trigger', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Zoho CRM', 'flows_ids': [], 'links': []},\n",
++       " {'count': 0, 'name': 'Zoho Desk', 'flows_ids': [], 'links': []}]"
++      ]
++     },
++     "execution_count": 3,
++     "metadata": {},
++     "output_type": "execute_result"
++    }
++   ],
++   "execution_count": 3
++  },
++  {
++   "metadata": {
++    "ExecuteTime": {
++     "end_time": "2025-11-16T11:38:08.144587Z",
++     "start_time": "2025-11-16T11:38:08.141690Z"
++    }
++   },
++   "cell_type": "code",
++   "source": "[data[d] for d in data if data[d]['count'] == 1]",
++   "id": "58e708dc007d5e72",
++   "outputs": [
++    {
++     "data": {
++      "text/plain": [
++       "[{'count': 1,\n",
++       "  'name': 'AlfaCRM',\n",
++       "  'flows_ids': ['504985d2-59db-40cc-b827-aaec92fefb0c'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/504985d2-59db-40cc-b827-aaec92fefb0c']},\n",
++       " {'count': 1,\n",
++       "  'name': 'Altegio Telephony',\n",
++       "  'flows_ids': ['e80f6724-23a1-4092-970f-b0bd0cbe075e'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/e80f6724-23a1-4092-970f-b0bd0cbe075e']},\n",
++       " {'count': 1,\n",
++       "  'name': 'AutoCRM',\n",
++       "  'flows_ids': ['504985d2-59db-40cc-b827-aaec92fefb0c'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/504985d2-59db-40cc-b827-aaec92fefb0c']},\n",
++       " {'count': 1,\n",
++       "  'name': 'Behomes',\n",
++       "  'flows_ids': ['504985d2-59db-40cc-b827-aaec92fefb0c'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/504985d2-59db-40cc-b827-aaec92fefb0c']},\n",
++       " {'count': 1,\n",
++       "  'name': 'CRM distribution callback',\n",
++       "  'flows_ids': ['39c2984c-9e08-4bf0-b213-c40572179ab3'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/39c2984c-9e08-4bf0-b213-c40572179ab3']},\n",
++       " {'count': 1,\n",
++       "  'name': 'CRM Distribution Trigger',\n",
++       "  'flows_ids': ['39c2984c-9e08-4bf0-b213-c40572179ab3'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/39c2984c-9e08-4bf0-b213-c40572179ab3']},\n",
++       " {'count': 1,\n",
++       "  'name': 'Hubspot CRM',\n",
++       "  'flows_ids': ['d956b1b8-2c7c-4197-ad22-e99e9f723103'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/d956b1b8-2c7c-4197-ad22-e99e9f723103']},\n",
++       " {'count': 1,\n",
++       "  'name': 'Postman',\n",
++       "  'flows_ids': ['ff84e125-bb55-463a-8d74-3a80166a212b'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/ff84e125-bb55-463a-8d74-3a80166a212b']},\n",
++       " {'count': 1,\n",
++       "  'name': 'Pyrus',\n",
++       "  'flows_ids': ['420c7afd-d0c7-4382-92da-e71ac6e46a99'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/420c7afd-d0c7-4382-92da-e71ac6e46a99']},\n",
++       " {'count': 1,\n",
++       "  'name': 'Roistat',\n",
++       "  'flows_ids': ['ff84e125-bb55-463a-8d74-3a80166a212b'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/ff84e125-bb55-463a-8d74-3a80166a212b']},\n",
++       " {'count': 1,\n",
++       "  'name': 'Yandex Metrika',\n",
++       "  'flows_ids': ['fe5945aa-e9f8-4ba0-85e9-91123f1cd7d6'],\n",
++       "  'links': ['https://go.uiscom.ru/marketplace/flows/fe5945aa-e9f8-4ba0-85e9-91123f1cd7d6']}]"
++      ]
++     },
++     "execution_count": 4,
++     "metadata": {},
++     "output_type": "execute_result"
++    }
++   ],
++   "execution_count": 4
++  },
++  {
++   "metadata": {
++    "ExecuteTime": {
++     "end_time": "2025-11-16T11:41:13.187251Z",
++     "start_time": "2025-11-16T11:41:13.184352Z"
++    }
++   },
++   "cell_type": "code",
++   "source": "data['queue_manager']",
++   "id": "16afaf610d84273",
++   "outputs": [
++    {
++     "data": {
++      "text/plain": [
++       "{'count': 59,\n",
++       " 'name': 'Queue Manager',\n",
++       " 'flows_ids': ['095ffa58-6686-4336-9e1a-ba8e3d4c4e1d',\n",
++       "  '169d03d9-4be6-4f9f-9a56-4ba8d78743d3',\n",
++       "  '1950c799-aa3f-463b-9366-1a68fdd3b3eb',\n",
++       "  '284c36da-418f-490d-b513-1bd84de1462b',\n",
++       "  '2d3b7ba1-d1dc-43a5-8aa4-ac8b4bb122f1',\n",
++       "  '2ebe0e87-8e64-491f-83cd-3cf22b5fbfda',\n",
++       "  '3206aa35-378c-4630-8fa9-b345b98e643e',\n",
++       "  '32b7c8d5-5fdd-4331-ae0f-cf41efdd507c',\n",
++       "  '3336ab50-1381-4637-9df2-4ab70e5cd9df',\n",
++       "  '36d3c80f-1934-48b4-9d8d-cd7af62d4e84',\n",
++       "  '38d9a0fd-f0ae-46ee-a725-01a91d456ec4',\n",
++       "  '3a6d77f2-39e0-4bfc-ac5b-6226e8e8fbda',\n",
++       "  '467d48be-b62a-4e9f-b11e-f1bd4a38908c',\n",
++       "  '49586d07-7bdc-41f3-ac79-16bda6d234a1',\n",
++       "  '4f1dbc5f-f0c6-47fe-9f64-9dc54ad413c5',\n",
++       "  '515625b8-d1df-4022-b96e-d074484f4af4',\n",
++       "  '51bbecda-58af-4ae3-8fe0-778e8d0c7d96',\n",
++       "  '531d417b-370a-4a12-959e-dceff15e4e63',\n",
++       "  '534e352e-a1fd-4481-b0b8-dcf8d70526ab',\n",
++       "  '5398b6ee-d4e8-4efc-b7bb-3186549bfbae',\n",
++       "  '5b157f37-f2f4-4dac-8ab3-81fa5a01be5d',\n",
++       "  '5d915dfc-c281-4645-8602-f3b226f8abcc',\n",
++       "  '5fe984ea-44f6-44b0-88cb-23a8f20bef8b',\n",
++       "  '61a7d498-1886-481e-811f-306fcefffa6e',\n",
++       "  '66551688-14c2-4f8d-aadf-f84ed442d1a9',\n",
++       "  '6ab01532-dbde-4774-ab76-88f12c086a3d',\n",
++       "  '726f6dc8-cc23-4e54-ac6c-a0009f9d790e',\n",
++       "  '77094a30-084f-4660-98cf-1f14bf764020',\n",
++       "  '7f132ecd-9cbe-447a-a467-9336105aceb2',\n",
++       "  '8b1a4e3a-9378-4101-9559-99ff971ce82e',\n",
++       "  '9f096761-433f-407e-ac97-c3550772ad17',\n",
++       "  'a0302a16-f5c0-4a13-b128-79544d7cabf8',\n",
++       "  'a614bf01-b006-4d19-a47c-5e44126e0298',\n",
++       "  'aa6d3151-08c4-4a17-a0f4-18b6e20f0850',\n",
++       "  'aeb55d4a-fd9e-4ee7-a3d6-64fa13055d9e',\n",
++       "  'af46f95c-3297-4da2-82ff-c8fbd07ca512',\n",
++       "  'bd938c4e-d54d-420e-a629-3e8f0c4ac9ee',\n",
++       "  'c02e96df-a679-4f6d-8c73-5d7d2c53df64',\n",
++       "  'c03b8dcc-53db-4c26-8465-5739cd1a99cc',\n",
++       "  'c4814ec8-69a3-4042-a342-b7d306517521',\n",
++       "  'c79489f0-b12d-4f2b-bd3c-e31c02c8bada',\n",
++       "  'c9f8e8a8-d3f2-446e-bbb4-dc51f39622eb',\n",
++       "  'cc68d376-99e6-44ac-a8e4-9300e19a6444',\n",
++       "  'ce7d102d-af67-4a93-b1cf-0b674245208b',\n",
++       "  'd3ea67ff-9b42-4487-99e1-c55e58ef18e2',\n",
++       "  'd74a3683-1d76-4bf5-b317-464af859522d',\n",
++       "  'dc072a0c-2d64-4299-afae-531b1cd43c7b',\n",
++       "  'dc489da1-8482-4593-9c22-e7b769c22c8e',\n",
++       "  'e8b538b6-e060-4571-bb42-b8a363d1b89a',\n",
++       "  'e8ba8166-4575-492d-953f-8c5acad83d9e',\n",
++       "  'eea46598-6da0-4d93-a574-2594f5edbde1',\n",
++       "  'f0f9bf0f-587a-4df2-b096-64abd92c2a2f',\n",
++       "  'f6ef2e23-36ac-4e73-9686-55f4811a29d3',\n",
++       "  'f7559571-f940-4cff-b8b3-ce482494e01e',\n",
++       "  'fb3cf9f6-259f-4363-b390-0a926b528c24',\n",
++       "  'fcdc2907-0b4a-409d-b7ef-b065247d36c8',\n",
++       "  'fe7e8391-8672-4dd8-a8e2-4ac60351fda5',\n",
++       "  'ffa3e75a-41e6-4fa2-bff3-26bb59b8e997',\n",
++       "  'ffe5bceb-b4fb-4e0f-af68-3247c24d4086'],\n",
++       " 'links': ['https://go.uiscom.ru/marketplace/flows/095ffa58-6686-4336-9e1a-ba8e3d4c4e1d',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/169d03d9-4be6-4f9f-9a56-4ba8d78743d3',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/1950c799-aa3f-463b-9366-1a68fdd3b3eb',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/284c36da-418f-490d-b513-1bd84de1462b',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/2d3b7ba1-d1dc-43a5-8aa4-ac8b4bb122f1',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/2ebe0e87-8e64-491f-83cd-3cf22b5fbfda',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/3206aa35-378c-4630-8fa9-b345b98e643e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/32b7c8d5-5fdd-4331-ae0f-cf41efdd507c',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/3336ab50-1381-4637-9df2-4ab70e5cd9df',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/36d3c80f-1934-48b4-9d8d-cd7af62d4e84',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/38d9a0fd-f0ae-46ee-a725-01a91d456ec4',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/3a6d77f2-39e0-4bfc-ac5b-6226e8e8fbda',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/467d48be-b62a-4e9f-b11e-f1bd4a38908c',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/49586d07-7bdc-41f3-ac79-16bda6d234a1',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/4f1dbc5f-f0c6-47fe-9f64-9dc54ad413c5',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/515625b8-d1df-4022-b96e-d074484f4af4',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/51bbecda-58af-4ae3-8fe0-778e8d0c7d96',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/531d417b-370a-4a12-959e-dceff15e4e63',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/534e352e-a1fd-4481-b0b8-dcf8d70526ab',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/5398b6ee-d4e8-4efc-b7bb-3186549bfbae',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/5b157f37-f2f4-4dac-8ab3-81fa5a01be5d',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/5d915dfc-c281-4645-8602-f3b226f8abcc',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/5fe984ea-44f6-44b0-88cb-23a8f20bef8b',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/61a7d498-1886-481e-811f-306fcefffa6e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/66551688-14c2-4f8d-aadf-f84ed442d1a9',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/6ab01532-dbde-4774-ab76-88f12c086a3d',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/726f6dc8-cc23-4e54-ac6c-a0009f9d790e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/77094a30-084f-4660-98cf-1f14bf764020',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/7f132ecd-9cbe-447a-a467-9336105aceb2',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/8b1a4e3a-9378-4101-9559-99ff971ce82e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/9f096761-433f-407e-ac97-c3550772ad17',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/a0302a16-f5c0-4a13-b128-79544d7cabf8',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/a614bf01-b006-4d19-a47c-5e44126e0298',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/aa6d3151-08c4-4a17-a0f4-18b6e20f0850',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/aeb55d4a-fd9e-4ee7-a3d6-64fa13055d9e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/af46f95c-3297-4da2-82ff-c8fbd07ca512',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/bd938c4e-d54d-420e-a629-3e8f0c4ac9ee',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/c02e96df-a679-4f6d-8c73-5d7d2c53df64',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/c03b8dcc-53db-4c26-8465-5739cd1a99cc',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/c4814ec8-69a3-4042-a342-b7d306517521',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/c79489f0-b12d-4f2b-bd3c-e31c02c8bada',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/c9f8e8a8-d3f2-446e-bbb4-dc51f39622eb',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/cc68d376-99e6-44ac-a8e4-9300e19a6444',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/ce7d102d-af67-4a93-b1cf-0b674245208b',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/d3ea67ff-9b42-4487-99e1-c55e58ef18e2',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/d74a3683-1d76-4bf5-b317-464af859522d',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/dc072a0c-2d64-4299-afae-531b1cd43c7b',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/dc489da1-8482-4593-9c22-e7b769c22c8e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/e8b538b6-e060-4571-bb42-b8a363d1b89a',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/e8ba8166-4575-492d-953f-8c5acad83d9e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/eea46598-6da0-4d93-a574-2594f5edbde1',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/f0f9bf0f-587a-4df2-b096-64abd92c2a2f',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/f6ef2e23-36ac-4e73-9686-55f4811a29d3',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/f7559571-f940-4cff-b8b3-ce482494e01e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/fb3cf9f6-259f-4363-b390-0a926b528c24',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/fcdc2907-0b4a-409d-b7ef-b065247d36c8',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/fe7e8391-8672-4dd8-a8e2-4ac60351fda5',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/ffa3e75a-41e6-4fa2-bff3-26bb59b8e997',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/ffe5bceb-b4fb-4e0f-af68-3247c24d4086']}"
++      ]
++     },
++     "execution_count": 5,
++     "metadata": {},
++     "output_type": "execute_result"
++    }
++   ],
++   "execution_count": 5
++  },
++  {
++   "metadata": {
++    "ExecuteTime": {
++     "end_time": "2025-11-16T11:41:41.603310Z",
++     "start_time": "2025-11-16T11:41:41.601047Z"
++    }
++   },
++   "cell_type": "code",
++   "source": "data[('queuemanager')]",
++   "id": "55af551fc13e28f9",
++   "outputs": [
++    {
++     "data": {
++      "text/plain": [
++       "{'count': 16,\n",
++       " 'name': 'QueueManager',\n",
++       " 'flows_ids': ['0bbbc232-14fe-4647-a8e3-65b9f4a20de5',\n",
++       "  '152a6889-e4b2-4491-999f-e6bb4811aa67',\n",
++       "  '46ff115f-b931-4316-88d8-bb73f07258a8',\n",
++       "  '4e6480e1-4e91-4cc4-b328-9371bf17544e',\n",
++       "  '66551688-14c2-4f8d-aadf-f84ed442d1a9',\n",
++       "  '6ab01532-dbde-4774-ab76-88f12c086a3d',\n",
++       "  '7a0edc27-5aeb-45dc-b45b-c12a078a5442',\n",
++       "  '7e410447-0f4a-4845-b80f-2cafe9a9db85',\n",
++       "  '823445ce-3078-4279-b4e3-3905d381c204',\n",
++       "  'a7596c6e-b928-4be4-b3a9-fcfdf8b71a11',\n",
++       "  'a9f37763-a01e-49f5-b6f3-6b3307c937fa',\n",
++       "  'aeb55d4a-fd9e-4ee7-a3d6-64fa13055d9e',\n",
++       "  'cc68d376-99e6-44ac-a8e4-9300e19a6444',\n",
++       "  'dc489da1-8482-4593-9c22-e7b769c22c8e',\n",
++       "  'fb3cf9f6-259f-4363-b390-0a926b528c24',\n",
++       "  'fcdc2907-0b4a-409d-b7ef-b065247d36c8'],\n",
++       " 'links': ['https://go.uiscom.ru/marketplace/flows/0bbbc232-14fe-4647-a8e3-65b9f4a20de5',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/152a6889-e4b2-4491-999f-e6bb4811aa67',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/46ff115f-b931-4316-88d8-bb73f07258a8',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/4e6480e1-4e91-4cc4-b328-9371bf17544e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/66551688-14c2-4f8d-aadf-f84ed442d1a9',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/6ab01532-dbde-4774-ab76-88f12c086a3d',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/7a0edc27-5aeb-45dc-b45b-c12a078a5442',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/7e410447-0f4a-4845-b80f-2cafe9a9db85',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/823445ce-3078-4279-b4e3-3905d381c204',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/a7596c6e-b928-4be4-b3a9-fcfdf8b71a11',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/a9f37763-a01e-49f5-b6f3-6b3307c937fa',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/aeb55d4a-fd9e-4ee7-a3d6-64fa13055d9e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/cc68d376-99e6-44ac-a8e4-9300e19a6444',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/dc489da1-8482-4593-9c22-e7b769c22c8e',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/fb3cf9f6-259f-4363-b390-0a926b528c24',\n",
++       "  'https://go.uiscom.ru/marketplace/flows/fcdc2907-0b4a-409d-b7ef-b065247d36c8']}"
++      ]
++     },
++     "execution_count": 6,
++     "metadata": {},
++     "output_type": "execute_result"
++    }
++   ],
++   "execution_count": 6
+   }
+  ],
+  "metadata": {
+diff --git a/nodes_counter/fixed.py b/nodes_counter/fixed.py
+index e69de29..e52ce82 100644
+--- a/nodes_counter/fixed.py
++++ b/nodes_counter/fixed.py
+@@ -0,0 +1,34 @@
++import json
++
++INPUT_FILE = "flows_nodes_counter_result.json"
++OUTPUT_FILE = "flows_nodes_counter_result_fixed.json"
++
++OLD_PREFIX = "https://go.uiscom.ru/flows/"
++NEW_PREFIX = "https://go.uiscom.ru/marketplace/flows/"
++
++
++def fix_links():
++    with open(INPUT_FILE, "r", encoding="utf-8") as f:
++        data = json.load(f)
++
++    for node_type_id, info in data.items():
++        links = info.get("links")
++        if not links:
++            continue
++
++        new_links = []
++        for link in links:
++            if link.startswith(OLD_PREFIX):
++                new_links.append(link.replace(OLD_PREFIX, NEW_PREFIX, 1))
++            else:
++                new_links.append(link)
++        info["links"] = new_links
++
++    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
++        json.dump(data, f, ensure_ascii=False, indent=2)
++
++    print(f"Готово. Результат записан в {OUTPUT_FILE}")
++
++
++if __name__ == "__main__":
++    fix_links()
+diff --git a/nodes_counter/get_all_flows.py b/nodes_counter/get_all_flows.py
+index e69de29..12a474f 100644
+--- a/nodes_counter/get_all_flows.py
++++ b/nodes_counter/get_all_flows.py
+@@ -0,0 +1,14 @@
++import json
++
++
++with open("all_flows.json", "r") as f:
++    result = []
++    flows = json.load(f)
++    for flow in flows:
++        result.append(flow['id'])
++
++print(len(result))
++
++with open("all_id_flows.json", "w") as f:
++    json.dump(result, f)
++
+diff --git a/nodes_counter/get_node_types.py b/nodes_counter/get_node_types.py
+index adca5bc..db2a704 100644
+--- a/nodes_counter/get_node_types.py
++++ b/nodes_counter/get_node_types.py
+@@ -52,15 +52,15 @@ async def request_api(
+ async def main():
+     # Пример: твой запрос к /node_types/detailed
+     result = []
+-    for _ in range(3):
++    for i in range(3):
+         data = await request_api(
+             "GET",
+             "/node_types/detailed",
+             params={
+-                "_end": 50,
++                "_end": 50*(i+1),
+                 "_order": "asc",
+                 "_sort": "displayName",
+-                "_start": 0,
++                "_start": i*50,
+             },
+         )
+         for node_type in data:
+diff --git a/nodes_counter/main.py b/nodes_counter/main.py
+index e69de29..cc450a0 100644
+--- a/nodes_counter/main.py
++++ b/nodes_counter/main.py
+@@ -0,0 +1,120 @@
++import aiohttp
++import json
++import asyncio
++
++
++
++import asyncio
++import aiohttp
++
++BASE_URL = "https://uis-prod-msk-mrkt-marketplace-api.uiscom.ru"
++
++# ⚠️ Не клади это в git
++COOKIE_HEADER = (
++    "__ddg9_=213.111.128.212; "
++    "__ddg1_=utgFAQVtKq7qvGnykOoX; "
++    "_ym_uid=1762987949666387098; "
++    "_ym_d=1762987949; "
++    "__ddg10_=1762987949; "
++    "BITRIX_CONVERSION_CONTEXT_s1=%7B%22ID%22%3A12%2C%22EXPIRE%22%3A1763067540%2C%22UNIQUE%22%3A%5B%22conversion_visit_day%22%5D%7D; "
++    "__ddg8_=7FN9Qwq6WW8rTjUk; "
++    "popmechanic_sbjs_migrations=popmechanic_1418474375998%3D1%7C%7C%7C1471519752600%3D1%7C%7C%7C1471519752605%3D1; "
++    "_cmg_csstEDW1C=1762987951; "
++    "_comagic_idEDW1C=48840481.125738262.1762987950; "
++    "access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImpQWmozdjdaLVVXUUZobE5PelVSZFNIUFFUVUxtWUUxdHJoQ0F5VnJqNkUiLCJ0eXAiOiJKV1QifQ.eyJqdGkiOiI5ZDgwYWVlMi04Y2FjLTRhZDQtODVkZS03ZDY2YWUxYWJmOTQiLCJzaWQiOiI0YzBlMDAxMi1iYTZiLTQwOTAtYmIxOS1lZTNiNDdiNDk0NzciLCJpc3MiOiJodHRwczovL3Vpcy1wcm9kLW1zay11Yy1zc28tYXBpLnVpc2NvbS5ydSIsImF1ZCI6WyJodHRwczovL3Vpcy1wcm9kLW1zay1tcmt0LW1hcmtldHBsYWNlLWFwaS51aXNjb20ucnUiXSwic3ViIjoiQ29tYWdpY0RCfHVpczJ8NTg4NjZ8MTE0MTU2Iiwic3ViZCI6eyJhcHBfaWQiOjU4ODY2LCJjdXN0b21lcl9pZCI6NTU1MjIwLCJ1c2VyX2lkIjoxMTQxNTYsImxvZ2luIjoiYS5maWxjaGVua292QGNvbWFnaWMuZGV2IiwiaXNfc3lzdGVtIjpmYWxzZSwic3lzdGVtX3VzZXJfaWQiOjgxNDEwOX0sImNsaWVudF9pZCI6Imh0dHBzOi8vdWlzLXByb2QtbXNrLW1ya3QtbWFya2V0cGxhY2UtYXBpLnVpc2NvbS5ydSIsImlhdCI6MTc2MzA2ODIxOH0.lywA50YtkPjZceE09f_nXPFcSi7cBJW5etNkrntYQGFDAKkQGWGCXvQ2y3ULcX3I-awXTPphvImU2DuowN0O33NjC0a6OkqyMxUVkN55qlfCH_ov2ZRLaSWHxI1vlUejapz-pwAISQdlqCTD30hDjpEX8P6sq7-6oMQeWvvbp4zbB6W_kMdfl7VuS5uSkATrJJUOXL_G5-tpsFZeAeLt1lDWtguF5u7Mf00M26H3AcN0oegrmYeGAIvkaF8FsMvvsj0owYVZyygj1bMkUO1f0cw1K6QpoumbzA0NPlE3RsVyfnTT6aCgF0gB6gc8IQ7beChnG2rDX3z9OpiSXlieRF7NNYyO9-pDSnXskCPi4RZ8iHys8oLFA3wWuLDJ3FOGXg3qUp65mRwc6ltCZdEY3FNssWbGWFCnGfMSwRNmvmCcyjXxShA77-3-Yd-FvDmwGseN0nF0GlqBhNcLiJHgFDVF_mOMpkROxCVqH2TOWNPRCjzgC_pijyO8XvHpB0o61Nk4Xg4dQG5Agv6aQ_aLV18HyNw_4cMhb_WCBfvO1n7tkm4SrY03TP_Yjebsgt44aqpW8ZVnV6fovXP8iF9s3zhiyXoM3ISPvVj8bTwOeMeWVF7p4iHXqRP7ZSnRcuEBpMF7vhLkL-rM8aKHg3ZEzzYVCeleusTpasBBVv4EUWk; "
++    "_ym_isad=1; "
++    "mindboxDeviceUUID=ff6781bb-c364-46fc-ae99-f755a3b8ad51; "
++    "directCrm-session=%7B%22deviceGuid%22%3A%22ff6781bb-c364-46fc-ae99-f755a3b8ad51%22%7D"
++)
++
++COMMON_HEADERS = {
++    "Accept": "application/json",
++    "Referer": "https://uis-prod-msk-mrkt-marketplace-api.uiscom.ru/doc",
++    "Cookie": COOKIE_HEADER,
++}
++
++
++async def marketplace_request(
++    session: aiohttp.ClientSession,
++    method: str,
++    path: str,
++    *,
++    params: dict | None = None,
++    json: dict | None = None,
++) -> dict:
++    url = BASE_URL + path
++    async with session.request(method.upper(), url, params=params, json=json) as resp:
++        resp.raise_for_status()
++        return await resp.json()
++
++
++async def main():
++    # Пример: твой запрос к /node_types/detailed
++    with open("all_id_flows.json", "r") as f:
++        list_ids = json.load(f)
++
++    with open("nodes_counter.json", "r") as f:
++        nodes_type_ids = json.load(f)
++
++    counter: dict[str, dict] = {
++        node_type["id"]: {
++            "count": 0,
++            "name": node_type["displayName"],
++            "flows_ids": set(),
++        }
++        for node_type in nodes_type_ids
++    }
++
++    async with aiohttp.ClientSession(headers=COMMON_HEADERS) as session:
++        n = 0
++        for flow_id in list_ids:
++            n += 1
++            print(f"Выполняется: {n}/{len(list_ids)}")
++            path = f"/flows/{flow_id}"
++            print(path)
++            try:
++                data = await marketplace_request(session, "GET", path)
++            except aiohttp.ClientResponseError as e:
++                print(f"[ERROR] flow {flow_id}: {e.status} {e.message}")
++                continue
++            except Exception as e:
++                print(f"[ERROR] flow {flow_id}: {e}")
++                continue
++
++            graph = data.get("graph") or {}
++            nodes = graph.get("nodes") or {}
++
++            seen_node_types: set[str] = set()
++
++            for node in nodes.values():
++                node_data = node.get("data") or {}
++                node_type_id = node_data.get("nodeTypeId")
++                if not node_type_id:
++                    continue
++
++                if node_type_id in counter:
++                    seen_node_types.add(node_type_id)
++
++            for node_type_id in seen_node_types:
++                counter[node_type_id]["count"] += 1
++                counter[node_type_id]["flows_ids"].add(flow_id)
++
++    result: dict[str, dict] = {}
++    for node_type_id, info in counter.items():
++        flows_ids = sorted(info["flows_ids"])
++        links = [f"https://go.uiscom.ru/marketplace/flows/{fid}" for fid in flows_ids]
++
++        result[node_type_id] = {
++            "count": info["count"],  # число сценариев, где встречается nodeType
++            "name": info['name'],
++            "flows_ids": flows_ids,  # список id таких сценариев
++            "links": links,  # удобные ссылки
++        }
++
++    with open("flows_nodes_counter_result.json", "w", encoding="utf-8") as f:
++        json.dump(result, f, ensure_ascii=False, indent=2)
++
++    print("Готово, результат сохранен в flows_nodes_counter_result.json")
++
++if __name__ == "__main__":
++    asyncio.run(main())

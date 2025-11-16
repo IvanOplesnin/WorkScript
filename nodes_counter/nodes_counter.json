@@ -1,0 +1,632 @@
+[
+    {
+        "id": "alfacrm-action",
+        "displayName": "AlfaCRM",
+        "type": "action"
+    },
+    {
+        "id": "alfacrm-api",
+        "displayName": "AlfaCRM API",
+        "type": "action"
+    },
+    {
+        "id": "alfacrm-telephony",
+        "displayName": "AlfaCRM Telephony",
+        "type": "action"
+    },
+    {
+        "id": "altegio-api",
+        "displayName": "Altegio API",
+        "type": "action"
+    },
+    {
+        "id": "altegio-telephony",
+        "displayName": "Altegio Telephony",
+        "type": "action"
+    },
+    {
+        "id": "33ea6eda-34ca-4772-8647-398272f876e0",
+        "displayName": "Amo Button",
+        "type": "action"
+    },
+    {
+        "id": "amocrm-chats",
+        "displayName": "AmoCRM",
+        "type": "action"
+    },
+    {
+        "id": "amocrm-action",
+        "displayName": "AmoCRM (deprecated)",
+        "type": "action"
+    },
+    {
+        "id": "amocrm-trigger",
+        "displayName": "AmoCRM Trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "autocrm-action",
+        "displayName": "AutoCRM",
+        "type": "action"
+    },
+    {
+        "id": "avito",
+        "displayName": "Avito DEV",
+        "type": "action"
+    },
+    {
+        "id": "behomes-action",
+        "displayName": "Behomes",
+        "type": "action"
+    },
+    {
+        "id": "pull-api",
+        "displayName": "BI Pull",
+        "type": "action"
+    },
+    {
+        "id": "push-api",
+        "displayName": "BI Push",
+        "type": "action"
+    },
+    {
+        "id": "bitrix24-action",
+        "displayName": "Bitrix24",
+        "type": "action"
+    },
+    {
+        "id": "comagic-callapi",
+        "displayName": "CallAPI",
+        "type": "action"
+    },
+    {
+        "id": "call_assessment",
+        "displayName": "Call Assessment",
+        "type": "action"
+    },
+    {
+        "id": "crm-engine-call-session-event-trigger",
+        "displayName": "Call session event",
+        "type": "trigger"
+    },
+    {
+        "id": "09952f03-273e-4e7a-9bed-2fa4e982cddb",
+        "displayName": "CallTouch",
+        "type": "action"
+    },
+    {
+        "id": "f929b603-19fb-4368-b164-960d89d030e6",
+        "displayName": "Cat Api Test",
+        "type": "action"
+    },
+    {
+        "id": "chat2desk-action",
+        "displayName": "Chat2Desk",
+        "type": "action"
+    },
+    {
+        "id": "comagic-chatapi-action",
+        "displayName": "ChatAPI Action",
+        "type": "action"
+    },
+    {
+        "id": "chatapi-action",
+        "displayName": "ChatAPI Action (deprecated)",
+        "type": "action"
+    },
+    {
+        "id": "comagic-chatapi-trigger",
+        "displayName": "ChatAPI Trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "chatapi-trigger",
+        "displayName": "ChatAPI trigger (deprecated)",
+        "type": "trigger"
+    },
+    {
+        "id": "cian-action",
+        "displayName": "Cian",
+        "type": "action"
+    },
+    {
+        "id": "comagic-action",
+        "displayName": "Comagic action",
+        "type": "action"
+    },
+    {
+        "id": "comagic-credential-types",
+        "displayName": "Comagic Credential Types",
+        "type": "action"
+    },
+    {
+        "id": "comagic-ns-trigger",
+        "displayName": "Comagic notification trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "comagic-ns-trigger-pmr",
+        "displayName": "Comagic notification trigger response",
+        "type": "action"
+    },
+    {
+        "id": "crm_distribution_callback",
+        "displayName": "CRM distribution callback",
+        "type": "action"
+    },
+    {
+        "id": "crm_distribution_trigger",
+        "displayName": "CRM Distribution Trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "crm-engine-call-session-event-trigger-callback",
+        "displayName": "CRM Engine trigger callback",
+        "type": "action"
+    },
+    {
+        "id": "crm-engine-call-session-event-trigger-debug",
+        "displayName": "CRM Engine trigger debug",
+        "type": "action"
+    },
+    {
+        "id": "cron",
+        "displayName": "Cron",
+        "type": "trigger"
+    },
+    {
+        "id": "cron-v2",
+        "displayName": "Cron-v2",
+        "type": "trigger"
+    },
+    {
+        "id": "comagic-dataapi",
+        "displayName": "DataAPI",
+        "type": "action"
+    },
+    {
+        "id": "dataapihelper",
+        "displayName": "DataAPI Helper",
+        "type": "action"
+    },
+    {
+        "id": "dataapi-http-request",
+        "displayName": "DataApi Request",
+        "type": "action"
+    },
+    {
+        "id": "comagic-deal-uploader",
+        "displayName": "Deal Uploader",
+        "type": "action"
+    },
+    {
+        "id": "dnm-action",
+        "displayName": "DNM",
+        "type": "action"
+    },
+    {
+        "id": "envycrm-action",
+        "displayName": "EnvyCRM",
+        "type": "action"
+    },
+    {
+        "id": "example",
+        "displayName": "example",
+        "type": "action"
+    },
+    {
+        "id": "excel",
+        "displayName": "Excel",
+        "type": "action"
+    },
+    {
+        "id": "file-server",
+        "displayName": "File Server",
+        "type": "action"
+    },
+    {
+        "id": "ftp",
+        "displayName": "FTP",
+        "type": "action"
+    },
+    {
+        "id": "function",
+        "displayName": "Function",
+        "type": "action"
+    },
+    {
+        "id": "e21f059f-485f-42d7-9bc8-4904de4e5517",
+        "displayName": "Google Ads",
+        "type": "action"
+    },
+    {
+        "id": "google-ads-smartis",
+        "displayName": "Google Ads Smartis",
+        "type": "action"
+    },
+    {
+        "id": "hollihop-action",
+        "displayName": "Hollihop",
+        "type": "action"
+    },
+    {
+        "id": "http-requester",
+        "displayName": "HTTP Request",
+        "type": "action"
+    },
+    {
+        "id": "hubspot_auth",
+        "displayName": "Hubspot Auth",
+        "type": "action"
+    },
+    {
+        "id": "hubspot-action",
+        "displayName": "HubspotCRM",
+        "type": "action"
+    },
+    {
+        "id": "hubspot-crm",
+        "displayName": "Hubspot CRM",
+        "type": "action"
+    },
+    {
+        "id": "hubspot_test",
+        "displayName": "Hubspot test",
+        "type": "action"
+    },
+    {
+        "id": "if-node",
+        "displayName": "IF",
+        "type": "action"
+    },
+    {
+        "id": "mail-imap-action",
+        "displayName": "IMAP Client",
+        "type": "action"
+    },
+    {
+        "id": "item-lists",
+        "displayName": "Item Lists",
+        "type": "action"
+    },
+    {
+        "id": "klientiks-action",
+        "displayName": "Klientiks",
+        "type": "action"
+    },
+    {
+        "id": "leadsquared-action",
+        "displayName": "Leadsquared",
+        "type": "action"
+    },
+    {
+        "id": "logger",
+        "displayName": "Logger",
+        "type": "action"
+    },
+    {
+        "id": "69bc5a69-90a9-442e-b380-c176f5687413",
+        "displayName": "MacroCRM",
+        "type": "action"
+    },
+    {
+        "id": "mail-smtp-trigger",
+        "displayName": "Mail trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "marketplace-action",
+        "displayName": "Marketplace",
+        "type": "action"
+    },
+    {
+        "id": "marketplace-trigger",
+        "displayName": "Marketplace trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "medflex-action",
+        "displayName": "MedFlex",
+        "type": "action"
+    },
+    {
+        "id": "medods-action",
+        "displayName": "Medods",
+        "type": "action"
+    },
+    {
+        "id": "megaplan-action",
+        "displayName": "MegaPlan",
+        "type": "action"
+    },
+    {
+        "id": "method_call_node_callback",
+        "displayName": "Method Call Callback",
+        "type": "action"
+    },
+    {
+        "id": "method_call_node_trigger",
+        "displayName": "Method Call Trigger",
+        "type": "action"
+    },
+    {
+        "id": "moysklad-jsonapi",
+        "displayName": "MoySklad JSON API",
+        "type": "action"
+    },
+    {
+        "id": "moysklad-phoneapi",
+        "displayName": "MoySklad Phone API",
+        "type": "action"
+    },
+    {
+        "id": "ms-dynamics-action",
+        "displayName": "MS Dynamics",
+        "type": "action"
+    },
+    {
+        "id": "odoo-action",
+        "displayName": "Odoo",
+        "type": "action"
+    },
+    {
+        "id": "odoo_test_shmelev",
+        "displayName": "Odoo_test",
+        "type": "action"
+    },
+    {
+        "id": "okdesk-api",
+        "displayName": "Okdesk API",
+        "type": "action"
+    },
+    {
+        "id": "personal-manager-action",
+        "displayName": "Personal manager response",
+        "type": "action"
+    },
+    {
+        "id": "personal-manager-trigger",
+        "displayName": "Personal manager trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "pipedrive-action",
+        "displayName": "Pipedrive",
+        "type": "action"
+    },
+    {
+        "id": "planfix_action",
+        "displayName": "Planfix",
+        "type": "action"
+    },
+    {
+        "id": "planfix_rest_api_action",
+        "displayName": "Planfix Rest API",
+        "type": "action"
+    },
+    {
+        "id": "postman",
+        "displayName": "Postman",
+        "type": "action"
+    },
+    {
+        "id": "profsalon-action",
+        "displayName": "ProfSalon",
+        "type": "action"
+    },
+    {
+        "id": "pyrus-action",
+        "displayName": "Pyrus",
+        "type": "action"
+    },
+    {
+        "id": "queuemanager",
+        "displayName": "QueueManager",
+        "type": "action"
+    },
+    {
+        "id": "queue_manager",
+        "displayName": "Queue Manager",
+        "type": "action"
+    },
+    {
+        "id": "redis-node",
+        "displayName": "Redis",
+        "type": "action"
+    },
+    {
+        "id": "renovatio-action",
+        "displayName": "Renovatio",
+        "type": "action"
+    },
+    {
+        "id": "retailcrm-action",
+        "displayName": "RetailCRM",
+        "type": "action"
+    },
+    {
+        "id": "roistat-action",
+        "displayName": "Roistat",
+        "type": "action"
+    },
+    {
+        "id": "salesforce-action",
+        "displayName": "Salesforce",
+        "type": "action"
+    },
+    {
+        "id": "search_engine_cleaner",
+        "displayName": "Search engine cleaner",
+        "type": "action"
+    },
+    {
+        "id": "search_engine_processor",
+        "displayName": "Search engine processor",
+        "type": "trigger"
+    },
+    {
+        "id": "search-engine-processor-callback",
+        "displayName": "Search engine processor callback",
+        "type": "action"
+    },
+    {
+        "id": "search_engine_processor_v2",
+        "displayName": "Search engine processor v2",
+        "type": "trigger"
+    },
+    {
+        "id": "set-node",
+        "displayName": "Set",
+        "type": "action"
+    },
+    {
+        "id": "settings",
+        "displayName": "Settings",
+        "type": "action"
+    },
+    {
+        "id": "8e25824f-8115-438e-86d3-25ead247b629",
+        "displayName": "SMARTIS",
+        "type": "action"
+    },
+    {
+        "id": "mail-smtp-action",
+        "displayName": "SMTP Client",
+        "type": "action"
+    },
+    {
+        "id": "socketio-action",
+        "displayName": "Socketio Emitter",
+        "type": "action"
+    },
+    {
+        "id": "socketio-trigger",
+        "displayName": "Socketio Trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "comagic-softphone-trigger",
+        "displayName": "Softphone trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "comagic-softphone-trigger-response-action",
+        "displayName": "Softphone trigger response",
+        "type": "action"
+    },
+    {
+        "id": "telegram-action",
+        "displayName": "Telegram",
+        "type": "action"
+    },
+    {
+        "id": "telegram-trigger",
+        "displayName": "Telegram trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "tiktok-action",
+        "displayName": "TikTok Action",
+        "type": "action"
+    },
+    {
+        "id": "tiktok-trigger",
+        "displayName": "TikTok Trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "uc-flow-action",
+        "displayName": "UC-Flow",
+        "type": "action"
+    },
+    {
+        "id": "uc-flow-trigger",
+        "displayName": "UC-Flow trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "ui_notification",
+        "displayName": "UI notification",
+        "type": "action"
+    },
+    {
+        "id": "ui_process",
+        "displayName": "UI process",
+        "type": "action"
+    },
+    {
+        "id": "ui_process_callback",
+        "displayName": "UI process callback",
+        "type": "action"
+    },
+    {
+        "id": "vkontakte-action",
+        "displayName": "Vkontakte",
+        "type": "action"
+    },
+    {
+        "id": "webhook-action",
+        "displayName": "Webhook response",
+        "type": "action"
+    },
+    {
+        "id": "webhook-trigger",
+        "displayName": "Webhook trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "websocket-action",
+        "displayName": "Websocket action",
+        "type": "action"
+    },
+    {
+        "id": "websocket-trigger",
+        "displayName": "Websocket trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "yandex-direct",
+        "displayName": "Yandex Direct",
+        "type": "action"
+    },
+    {
+        "id": "yandex-disk-action",
+        "displayName": "Yandex Disk API",
+        "type": "action"
+    },
+    {
+        "id": "yandex-metrika",
+        "displayName": "Yandex Metrika",
+        "type": "action"
+    },
+    {
+        "id": "yclients-api",
+        "displayName": "Yclients API",
+        "type": "action"
+    },
+    {
+        "id": "yclients-telephony",
+        "displayName": "Yclients Telephony",
+        "type": "action"
+    },
+    {
+        "id": "zendesk-action",
+        "displayName": "Zendesk",
+        "type": "action"
+    },
+    {
+        "id": "zendesk-trigger",
+        "displayName": "Zendesk trigger",
+        "type": "trigger"
+    },
+    {
+        "id": "zoho-srm-action",
+        "displayName": "Zoho CRM",
+        "type": "action"
+    },
+    {
+        "id": "zoho-desk-action",
+        "displayName": "Zoho Desk",
+        "type": "action"
+    }
+]
